@@ -1,10 +1,10 @@
 package com.orangehrmlive.helpers;
 
+import com.orangehrmlive.utils.LanguageUtils;
 import com.orangehrmlive.utils.LogUtils;
 import lombok.Getter;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.LinkedList;
@@ -16,6 +16,7 @@ public class PropertiesHelpers {
     private static String linkFile;
     private static FileInputStream file;
     private static FileOutputStream out;
+    private static String relPropertiesFilePathDefault = "src/test/resources/config/config.properties";
 
     public static Properties loadAllFile(){
         LinkedList<String> files = new LinkedList<>();
@@ -38,5 +39,25 @@ public class PropertiesHelpers {
            return new Properties();
         }
     }
+    public static String getValue(String key) throws IOException {
+        String keyvalue = null;
+     try {
+         if (file == null && properties == null) {
+             properties = new Properties();
+             linkFile = SystemHelpers.getCurrentUrl() + relPropertiesFilePathDefault;
+             file = new FileInputStream(linkFile);
+             properties.load(file);
+             file.close();
+         }
+        keyvalue = properties.getProperty(key);
+         return LanguageUtils.convertCharset_ISO_8859_1_To_UTF8(keyvalue);
+     } catch(Exception e){
+         System.out.println(e.getMessage());
+         return keyvalue;
+        }
+
+    }
+
+
 
 }
