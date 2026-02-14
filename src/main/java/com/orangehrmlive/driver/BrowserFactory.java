@@ -1,6 +1,7 @@
 package com.orangehrmlive.driver;
 
 import com.orangehrmlive.constants.FrameworkConstants;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -9,6 +10,9 @@ import java.util.Map;
 
 public enum BrowserFactory {
     CHROME{
+        public WebDriver createDriver() {
+            return new ChromeDriver(getOptions());
+        }
         public ChromeOptions getOptions(){
             ChromeOptions options = new ChromeOptions();
             Map<String, Object> prefs = new HashMap<String, Object>();
@@ -40,6 +44,6 @@ public enum BrowserFactory {
             return options;
         }
     };
-
+    public abstract WebDriver createDriver();
     private static final String START_MAXIMIZED = "--start-maximized";
 }

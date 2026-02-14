@@ -39,7 +39,7 @@ public class PropertiesHelpers {
            return new Properties();
         }
     }
-    public static String getValue(String key) throws IOException {
+    public static String getValue(String key) {
         String keyvalue = null;
      try {
          if (file == null && properties == null) {

@@ -4,7 +4,7 @@ import com.orangehrmlive.helpers.PropertiesHelpers;
 
 import java.io.IOException;
 
-public class FrameworkConstants {
+public final class FrameworkConstants {
     private FrameworkConstants(){
 
     }
@@ -13,13 +13,9 @@ public class FrameworkConstants {
         PropertiesHelpers.loadAllFile();
     }
 
-    public static final String HEADLESS;
+    public static final String HEADLESS = PropertiesHelpers.getValue("HEADLESS");;
+    public static final String BROWSER = PropertiesHelpers.getValue("BROWSER");
 
-    static {
-        try {
-            HEADLESS = PropertiesHelpers.getValue("HEADLESS");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
+
 }
