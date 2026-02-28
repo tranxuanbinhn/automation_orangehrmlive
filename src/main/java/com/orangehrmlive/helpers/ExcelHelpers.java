@@ -16,6 +16,51 @@ public class ExcelHelpers {
     private Workbook workbook;
     private Row row;
     private Map<String, Integer>columns = new HashMap<>();
+    private String excelFilePath;
+
+public void setExcelFile(String excelFile, String sheetName){
+    try{
+        File f = new File(excelFile);
+        try{
+            if(!f.exists()) {
+                System.out.println("Not found file");
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        try{
+            if(sheetName.isEmpty()){
+                System.out.println("Not found sheetname");
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+        if(sheetName.isEmpty()){
+            System.out.println("Not found sheetname");
+        }
+        fis = new FileInputStream(excelFile);
+        workbook = WorkbookFactory.create(fis);
+        sheet = workbook.getSheet(sheetName);
+        try{
+            if(sheet == null){
+                System.out.println("Not found sheetname");
+            }
+        }
+        catch (Exception e){
+           e.printStackTrace();
+        }
+        sheet.getRow(0).forEach(cell->{
+            columns.put(cell.getStringCellValue(), cell.getColumnIndex());
+        });
+    }
+    catch (Exception e)
+    {
+        e.printStackTrace();
+    }
+}
     public int getRows(){
         try{
             return sheet.getLastRowNum();
