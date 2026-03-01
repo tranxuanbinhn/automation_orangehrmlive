@@ -19,5 +19,5 @@ public final class FrameworkConstants {
     public static final String EXCEL_DATA_FILE_PATH = PropertiesHelpers.getValue("EXCEL_DATA_FILE_PATH");
     public static final Integer WAIT_SLEEP_STEP = Integer.parseInt(PropertiesHelpers.getValue("WAIT_SLEEP_STEP"));
     public static final Integer WAIT_PAGE_LOAD = Integer.parseInt(PropertiesHelpers.getValue("WAIT_PAGE_LOAD"));
-
+    public static final String ACTIVE_PAGE_LOADED = PropertiesHelpers.getValue("ACTIVE_PAGE_LOADED");
 }

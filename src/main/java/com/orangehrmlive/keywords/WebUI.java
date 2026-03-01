@@ -47,6 +47,20 @@ public static void waitForPageLoad(){
 
 
     }
+    public static boolean verifyEquals(String actucal, String expect, String message){
+
+        try{
+            boolean result =  actucal.equals(expect);
+            return result;
+        }catch (Exception e){
+            System.out.println(message);
+            return false;
+        }
+
+    }
+    public static String getTitlePage(){
+        return DriverManager.getDriver().getTitle();
+    }
     public static boolean verifyContains(String actual, String expect, String message){
         boolean result = actual.contains(expect);
         if(result){
@@ -54,5 +68,17 @@ public static void waitForPageLoad(){
         }
         return result;
     }
+    public static String getCurrentUrl(){
+        return DriverManager.getDriver().getCurrentUrl();
+    }
+    public static void smartWait(){
+        if(FrameworkConstants.ACTIVE_PAGE_LOADED.trim().equals("true")){
+            waitForPageLoad();
+        }if(FrameworkConstants.WAIT_SLEEP_STEP > 0){
+            sleep(FrameworkConstants.WAIT_SLEEP_STEP);
+        }
+    }
+
+
 
 }
