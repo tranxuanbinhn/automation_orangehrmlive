@@ -1,7 +1,11 @@
 package com.orangehrmlive.projects.crm.models;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Data
 public class SignInModel {
 
@@ -10,6 +14,7 @@ public class SignInModel {
     public static String testCaseName = "TESTCASENAME";
 
     public static String email = "EMAIL";
+    public static String username = "USERNAME";
 
     public static String password = "PASSWORD";
 
@@ -30,6 +35,11 @@ public class SignInModel {
     public static String getEmail() {
         return email;
     }
+
+    public static String getUsername() {
+        return username;
+    }
+
 
     public static String getPassword() {
         return password;
