@@ -5,14 +5,14 @@ import com.orangehrmlive.driver.BrowserFactory;
 import com.orangehrmlive.driver.DriverManager;
 import com.orangehrmlive.driver.TargetFactory;
 import com.orangehrmlive.keywords.WebUI;
+import com.orangehrmlive.listeners.TestListener;
+import com.orangehrmlive.projects.crm.pages.CommonPageCRM;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
-public class BaseTest {
+@Listeners({TestListener.class})
+public class BaseTest extends CommonPageCRM {
     @Parameters("BROWSER")
     @BeforeClass
     public void createDriver(@Optional("chrome") String browser){

@@ -32,11 +32,11 @@ public class PropertiesHelpers {
             properties.putAll(temProp);
             }
             file.close();
-            LogUtils.infor("Put all file properties");
+            LogUtils.info("Put all file properties");
             return  properties;
         }
        catch (IOException e) {
-           LogUtils.infor("Warning !! Can not Load All File.");
+           LogUtils.info("Warning !! Can not Load All File.");
            return new Properties();
         }
     }

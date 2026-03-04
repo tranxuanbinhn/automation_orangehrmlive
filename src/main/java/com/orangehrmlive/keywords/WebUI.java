@@ -1,7 +1,9 @@
 package com.orangehrmlive.keywords;
 
+import com.mysql.cj.log.Log;
 import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.driver.DriverManager;
+import com.orangehrmlive.utils.LogUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
@@ -24,8 +26,8 @@ public class WebUI {
         try{
             Thread.sleep((long) (second*1000));
         }
-        catch (Exception e){
-            e.printStackTrace();
+        catch (InterruptedException e){
+            LogUtils.error(e.getMessage());
         }
     }
 public static void waitForPageLoad(){
@@ -39,7 +41,7 @@ public static void waitForPageLoad(){
             wait.until(jsload);
         }
         catch (Exception e){
-            e.printStackTrace();
+           LogUtils.info(e.getMessage());
         }
     }
     }
@@ -52,13 +54,16 @@ public static void waitForPageLoad(){
     }
     public static boolean verifyEquals(String actucal, String expect, String message){
 
-        try{
+
             boolean result =  actucal.equals(expect);
+            if(result){
+                LogUtils.info("Verify Equals: "+actucal+"="+expect);
+            }
+            else {
+                LogUtils.info("Verify Equals: "+actucal+"!="+expect);
+            }
             return result;
-        }catch (Exception e){
-            System.out.println(message);
-            return false;
-        }
+
 
     }
     public static String getTitlePage(){
@@ -67,7 +72,10 @@ public static void waitForPageLoad(){
     public static boolean verifyContains(String actual, String expect, String message){
         boolean result = actual.contains(expect);
         if(result){
-            System.out.println(actual + " contains "+expect);
+            LogUtils.info(actual + " contains "+expect);
+        }
+        else {
+            LogUtils.info(actual + " not contains "+expect);
         }
         return result;
     }
@@ -86,8 +94,8 @@ public static void waitForPageLoad(){
             WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.WAIT_EXPLICIT));
             return wait.until(ExpectedConditions.presenceOfElementLocated(by));
         }
-        catch (Exception e){
-            e.printStackTrace();
+        catch (Throwable e){
+            LogUtils.error("Element not exist "+e.getMessage());
         }
         return null;
     }
@@ -97,6 +105,7 @@ public static void waitForPageLoad(){
              wait.until(ExpectedConditions.visibilityOfElementLocated(by));
              return true;
         }catch (TimeoutException e){
+            LogUtils.error("Element not visible");
             return false;
         }
     }
@@ -109,7 +118,7 @@ public static void waitForPageLoad(){
             js.executeScript("arguments[0].scrollIntoView(false);",getWebElement(by));
         }
         catch (TimeoutException e){
-
+            LogUtils.error("Some wrong with scroll element");
         }
     }
     public static WebElement waitForElementVisible(By by){
@@ -126,6 +135,7 @@ public static void waitForPageLoad(){
             }
         }
         catch (Throwable throwable){
+            LogUtils.error("Element is not visible");
             return null;
 
     }
@@ -149,9 +159,8 @@ public static void waitForPageLoad(){
             WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout));
             wait.until(ExpectedConditions.presenceOfElementLocated(by));
         }
-        catch (Exception e){
-
-        System.out.println(message);
+        catch (Throwable e){
+            LogUtils.error("Element is not present");
         }
 
     }
