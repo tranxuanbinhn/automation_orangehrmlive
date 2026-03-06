@@ -1,0 +1,8 @@
+[INFO] 04-03-2026 21:31:07 [main] [LogUtils] - Put all file properties
+[INFO] 04-03-2026 21:31:07 [main] [LogUtils] - Put all file properties
+[INFO] 04-03-2026 21:32:38 [main] [LogUtils] - Put all file properties
+[INFO] 04-03-2026 21:32:38 [main] [LogUtils] - Put all file properties
+[INFO] 04-03-2026 21:33:42 [main] [LogUtils] - Put all file properties
+[INFO] 04-03-2026 21:33:42 [main] [LogUtils] - Put all file properties
+[INFO] 04-03-2026 21:33:49 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[ERROR] 04-03-2026 21:33:59 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //input[@placeholder='Username'] (tried for 10 second(s) with 500 milliseconds interval)

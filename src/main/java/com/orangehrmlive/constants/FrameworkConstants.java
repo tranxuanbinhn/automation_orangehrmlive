@@ -13,6 +13,7 @@ public final class FrameworkConstants {
         PropertiesHelpers.loadAllFiles();
     }
 
+    public static final String EXPORT_VIDEO_PATH = PropertiesHelpers.getValue("EXPORT_VIDEO_PATH");
     public static final String HEADLESS = PropertiesHelpers.getValue("HEADLESS");
     public static final String URL_CRM = PropertiesHelpers.getValue("URL_CRM");
     public static final String BROWSER = PropertiesHelpers.getValue("BROWSER");
@@ -21,4 +22,5 @@ public final class FrameworkConstants {
     public static final Integer WAIT_PAGE_LOADED = Integer.parseInt(PropertiesHelpers.getValue("WAIT_PAGE_LOADED"));
     public static final String ACTIVE_PAGE_LOADED = PropertiesHelpers.getValue("ACTIVE_PAGE_LOADED");
     public static final Integer WAIT_EXPLICIT = Integer.parseInt(PropertiesHelpers.getValue("WAIT_EXPLICIT"));
+    public static final String EXPORT_CAPTURE_PATH = PropertiesHelpers.getValue("EXPORT_CAPTURE_PATH");
 }
