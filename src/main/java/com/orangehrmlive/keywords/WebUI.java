@@ -34,15 +34,20 @@ public static void waitForPageLoad(){
     WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.WAIT_PAGE_LOADED));
     JavascriptExecutor javascriptExecutor = (JavascriptExecutor) DriverManager.getDriver();
     ExpectedCondition<Boolean> jsload = driver -> ((JavascriptExecutor)driver).executeScript("return document.readyState").toString().equals("complete");
-    Boolean jsReady = javascriptExecutor.executeScript("return document.readyState").toString().equals("complete");
-    if(!jsReady){
-        try
-        {
-            wait.until(jsload);
+
+    ExpectedCondition<Boolean> jQueryLoad = driver -> {
+        try {
+            return ((Long) javascriptExecutor.executeScript("return jQuery.active")==0);
+        } catch (RuntimeException e) {
+            return  true;
         }
-        catch (Exception e){
-           LogUtils.info(e.getMessage());
-        }
+    };
+    try{
+        wait.until(jsload);
+        wait.until(jQueryLoad);
+
+    }catch (Throwable throwable){
+        LogUtils.info("Timeout for load "+throwable.getMessage());
     }
     }
     public static void openWebsite(String url){
@@ -75,7 +80,7 @@ public static void waitForPageLoad(){
             LogUtils.info(actual + " contains "+expect);
         }
         else {
-            LogUtils.info(actual + " not contains "+expect);
+            LogUtils.info(message);
         }
         return result;
     }

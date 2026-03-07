@@ -21,8 +21,6 @@ public class SignInPageCRM extends CommonPageCRM {
 
     public DashBoardPageCRM signInWithAdminRole() {
         ExcelHelpers excelHelpers = new ExcelHelpers();
-        String check = FrameworkConstants.EXCEL_DATA_FILE_PATH;
-        System.out.println("check "+ check);
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignIn");
         openWebsite(FrameworkConstants.URL_CRM);
         verifyContains(getCurrentUrl(), pageURL, "The url of signin page not match");
