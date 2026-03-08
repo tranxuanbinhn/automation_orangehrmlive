@@ -1,0 +1,147 @@
+[INFO] 07-03-2026 16:30:09 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 16:30:09 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:30:09 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 16:30:09 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 16:30:09 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:30:19 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-03-2026 16:30:22 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index not contains /viewAssignClaim
+[INFO] 07-03-2026 16:30:22 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 16:30:22 [main] [LogUtils] - Path is not exist D:\Learn\Automation\Automationorangehrmlive\exports/ExportData/Images
+[INFO] 07-03-2026 16:30:22 [main] [LogUtils] - Fodel is created D:\Learn\Automation\Automationorangehrmlive\exports\ExportData\Images
+[INFO] 07-03-2026 16:30:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (2f85f2aac40d7d681e50ac619bb7fb77)
+[INFO] 07-03-2026 16:30:22 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 16:30:23 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 16:30:23 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 16:30:23 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 16:43:38 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 16:43:38 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:43:38 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 16:43:38 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 16:43:38 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:43:47 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login not contains /auth/loginn
+[INFO] 07-03-2026 16:43:50 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index not contains /viewAssignClaim
+[INFO] 07-03-2026 16:43:50 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 16:43:50 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (00f936551ba61550fc5a6056904a2f6b)
+[INFO] 07-03-2026 16:43:51 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 16:43:51 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 16:43:51 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 16:43:51 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 16:44:46 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 16:44:46 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:44:46 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 16:44:46 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 16:44:46 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:44:55 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login not contains /authloginn
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index not contains /viewAssignClaim
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (c6fa4194b4ea8da655fb48ecb29b7fe8)
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 16:44:58 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 16:46:34 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 16:46:34 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:46:34 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 16:46:34 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 16:46:34 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 16:46:42 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login not contains /aun
+[INFO] 07-03-2026 16:46:45 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index not contains /viewAssignClaim
+[INFO] 07-03-2026 16:46:46 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 16:46:46 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6cef7b0715431af30dccbcd158706af0)
+[INFO] 07-03-2026 16:46:46 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 16:46:46 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 16:46:46 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 16:46:46 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 17:27:28 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 17:27:28 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:27:28 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 17:27:28 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 17:27:28 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:27:37 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-03-2026 17:27:40 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 07-03-2026 17:27:41 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 17:27:41 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (de493ed4617d0eae50e5f0ae291ef480)
+[INFO] 07-03-2026 17:27:41 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 17:27:41 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 17:27:41 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 17:27:41 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 17:46:34 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 17:46:34 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:46:34 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 17:46:34 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 17:46:34 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:46:48 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-03-2026 17:46:50 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 07-03-2026 17:46:51 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 17:46:51 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (5a27e4882159022f16697a8e47ba5710)
+[INFO] 07-03-2026 17:46:51 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 17:46:51 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 17:46:53 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 17:46:53 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 17:49:27 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 17:49:27 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:49:27 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 17:49:27 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 17:49:27 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:49:38 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (723e43e8aa2535949a8448f87fb6e1d2)
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 17:49:42 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 17:51:24 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 17:51:24 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:51:24 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 17:51:24 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 17:51:24 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 17:51:34 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-03-2026 17:51:42 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 07-03-2026 17:51:42 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 17:51:42 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3e917c8811ed5967763b817101c0b783)
+[INFO] 07-03-2026 17:51:42 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 17:51:42 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 17:51:43 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 17:51:43 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 18:03:02 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 18:03:02 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 18:03:02 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 18:03:02 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 18:03:03 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 18:03:14 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-03-2026 18:03:17 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 07-03-2026 18:03:17 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 07-03-2026 18:03:18 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (1e7f851cd3c12ed2c80b6712398216d1)
+[INFO] 07-03-2026 18:03:18 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 07-03-2026 18:03:18 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 07-03-2026 18:03:18 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 18:03:18 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - TEST SKIP!!!! Testcase signInWithAdminRole skipped
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - TEST FAIL!!!! Testcase signInWithAdminRole fail
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 18:10:18 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-03-2026 18:11:21 [main] [LogUtils] - *******RUN START********
+[INFO] 07-03-2026 18:11:21 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 18:11:21 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-03-2026 18:11:21 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-03-2026 18:11:21 [main] [LogUtils] - Put all file properties
+[INFO] 07-03-2026 18:11:35 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[ERROR] 07-03-2026 18:11:45 [main] [LogUtils] - Element not exist invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=145.0.7632.159)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc180a8394eadfe59c61b8c2957de484, findElement {value=//input[@placeholder='Password'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 145.0.7632.159, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\super\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34816}, goog:processID: 18924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:34816/devtoo..., se:cdpVersion: 145.0.7632.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc180a8394eadfe59c61b8c2957de484
+[INFO] 07-03-2026 18:11:45 [main] [LogUtils] - TEST FAIL!!!! Testcase signInWithAdminRole fail
+[INFO] 07-03-2026 18:11:45 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (cc180a8394eadfe59c61b8c2957de484)
+[INFO] 07-03-2026 18:11:45 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-03-2026 18:11:45 [main] [LogUtils] - =====> End Suite: Regression Tests
