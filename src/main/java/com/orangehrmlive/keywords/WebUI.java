@@ -165,7 +165,7 @@ public static void waitForPageLoad(){
             wait.until(ExpectedConditions.presenceOfElementLocated(by));
         }
         catch (Throwable e){
-            LogUtils.error("Element is not present");
+           LogUtils.error("Element is not present");
         }
 
     }

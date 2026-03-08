@@ -20,6 +20,7 @@ public class SignInPageCRM extends CommonPageCRM {
     }
 
     public DashBoardPageCRM signInWithAdminRole() {
+
         ExcelHelpers excelHelpers = new ExcelHelpers();
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignIn");
         openWebsite(FrameworkConstants.URL_CRM);
@@ -29,10 +30,11 @@ public class SignInPageCRM extends CommonPageCRM {
         setText(inputUsername, excelHelpers.getCellData(1, SignInModel.getUsername()));
         setText(inputPassword, DecodeUtils.decrypt(excelHelpers.getCellData(1, SignInModel.getPassword())));
         clickElement(buttonSign);
-        waitForPageLoad();
+        DashBoardPageCRM dashBoardPageCRM = new DashBoardPageCRM();
+        waitForElementVisible(dashBoardPageCRM.getMenuDashboard());
         verifyContains(getCurrentUrl(), getDashBoardPage().pageUrl, "Sign in failed. Can not redirect to Dashboard page.");
 
-        return new DashBoardPageCRM();
+        return dashBoardPageCRM;
     }
 
 }
