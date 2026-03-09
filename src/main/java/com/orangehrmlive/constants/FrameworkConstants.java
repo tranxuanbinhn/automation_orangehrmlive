@@ -1,6 +1,7 @@
 package com.orangehrmlive.constants;
 
 import com.orangehrmlive.helpers.PropertiesHelpers;
+import com.orangehrmlive.helpers.SystemHelpers;
 
 import java.io.IOException;
 
@@ -14,7 +15,7 @@ public final class FrameworkConstants {
     }
 
     public static final String SCREENSHOT_SKIPPED_TCS = PropertiesHelpers.getValue("SCREENSHOT_SKIPPED_TCS");
-
+    public static final String OVERRIDE_REPORTS = PropertiesHelpers.getValue("OVERRIDE_REPORTS");
     public static final String VIDEO_RECORD = PropertiesHelpers.getValue("VIDEO_RECORD");
     public static final String SCREENSHOT_PASSED_TCS = PropertiesHelpers.getValue("SCREENSHOT_PASSED_TCS");
     public static final String SCREENSHOT_FAILED_TCS = PropertiesHelpers.getValue("SCREENSHOT_FAILED_TCS");
