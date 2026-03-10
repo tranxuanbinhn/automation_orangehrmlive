@@ -3,6 +3,7 @@ package com.orangehrmlive.constants;
 import com.orangehrmlive.helpers.PropertiesHelpers;
 import com.orangehrmlive.helpers.SystemHelpers;
 
+import java.io.File;
 import java.io.IOException;
 
 public final class FrameworkConstants {
@@ -13,6 +14,19 @@ public final class FrameworkConstants {
     static {
         PropertiesHelpers.loadAllFiles();
     }
+    public static final String YES = "yes";
+    public static final String NO = "no";
+
+    public static final String EXTENT_REPORT_NAME = PropertiesHelpers.getValue("EXTENT_REPORT_NAME");
+    public static final String EXTENT_REPORT_FILE_NAME = EXTENT_REPORT_NAME + ".html";
+    public static final String EXTENT_REPORT_FOLDER = PropertiesHelpers.getValue("EXTENT_REPORT_FOLDER");
+    public static final String PROJECT_PATH = SystemHelpers.getCurrentDir();
+    public static final String EXTENT_REPORT_FOLDER_PATH = PROJECT_PATH + EXTENT_REPORT_FOLDER;
+    public static String EXTENT_REPORT_FILE_PATH = EXTENT_REPORT_FOLDER_PATH + File.separator + EXTENT_REPORT_FILE_NAME;
+    public static final String REPORT_TITLE = PropertiesHelpers.getValue("REPORT_TITLE");
+    public static final String AUTHOR = PropertiesHelpers.getValue("AUTHOR");
+    public static final String OPEN_REPORTS_AFTER_EXECUTION = PropertiesHelpers.getValue("OPEN_REPORTS_AFTER_EXECUTION");
+
 
     public static final String SCREENSHOT_SKIPPED_TCS = PropertiesHelpers.getValue("SCREENSHOT_SKIPPED_TCS");
     public static final String OVERRIDE_REPORTS = PropertiesHelpers.getValue("OVERRIDE_REPORTS");

@@ -30,7 +30,7 @@ public class CaptureHelpers extends ScreenRecorder {
 
     public static void captureScreenshot(WebDriver webDriver, String screenName){
         try{
-            String path = SystemHelpers.getCurrentUrl()+ FrameworkConstants.EXPORT_CAPTURE_PATH;
+            String path = SystemHelpers.getCurrentDir()+ FrameworkConstants.EXPORT_CAPTURE_PATH;
             File file = new File(path);
             if(!file.exists()){
                 LogUtils.info("Path is not exist "+path);

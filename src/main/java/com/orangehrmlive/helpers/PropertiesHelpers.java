@@ -26,7 +26,7 @@ public class PropertiesHelpers {
             properties = new Properties();
             for (String f:files){
                 Properties temProp = new Properties();
-                linkFile =SystemHelpers.getCurrentUrl() + f;
+                linkFile =SystemHelpers.getCurrentDir() + f;
                 file = new FileInputStream(linkFile);
                 temProp.load(file);
             properties.putAll(temProp);
@@ -45,7 +45,7 @@ public class PropertiesHelpers {
      try {
          if (file == null && properties == null) {
              properties = new Properties();
-             linkFile = SystemHelpers.getCurrentUrl() + relPropertiesFilePathDefault;
+             linkFile = SystemHelpers.getCurrentDir() + relPropertiesFilePathDefault;
              file = new FileInputStream(linkFile);
              properties.load(file);
              file.close();
