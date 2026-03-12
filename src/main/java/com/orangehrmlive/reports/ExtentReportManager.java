@@ -6,6 +6,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.utils.DateUtils;
 import com.orangehrmlive.utils.LogUtils;
+import com.orangehrmlive.utils.ReportUtils;
 
 import java.io.File;
 import java.util.Objects;
@@ -39,4 +40,13 @@ public class ExtentReportManager {
             LogUtils.info("Extent Reports is installed.");
         }
     }
+    public static void flushReports(){
+        if(Objects.nonNull(extentReports)){
+            extentReports.flush();
+        }
+        ExtentTestManager.unload();
+        ReportUtils.openReports(link);
+    }
+
+
 }

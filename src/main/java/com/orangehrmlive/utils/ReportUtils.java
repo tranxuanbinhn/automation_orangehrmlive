@@ -1,6 +1,13 @@
 package com.orangehrmlive.utils;
 
+import com.orangehrmlive.exceptions.FrameworkException;
+import com.orangehrmlive.exceptions.InvalidPathForExtentReportFileException;
+
+import java.awt.*;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import static com.orangehrmlive.constants.FrameworkConstants.*;
 public class ReportUtils {
     private ReportUtils() {
@@ -22,5 +29,15 @@ public class ReportUtils {
         }
     }
 
-
+    public static void openReports(String linkReport) {
+        if (OPEN_REPORTS_AFTER_EXECUTION.trim().equalsIgnoreCase(YES)) {
+            try {
+                Desktop.getDesktop().browse(new File(linkReport).toURI());
+            } catch (FileNotFoundException fileNotFoundException) {
+                throw new InvalidPathForExtentReportFileException("Extent Report file you are trying to reach is not found", fileNotFoundException.fillInStackTrace());
+            } catch (IOException ioException) {
+                throw new FrameworkException("Extent Report file you are trying to reach got IOException while reading the file", ioException.fillInStackTrace());
+            }
+        }
+    }
 }
