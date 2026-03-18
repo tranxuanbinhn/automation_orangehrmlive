@@ -1,26 +1,20 @@
-[INFO] 08-03-2026 16:45:19 [main] [LogUtils] - *******RUN START********
-[INFO] 08-03-2026 16:45:19 [main] [LogUtils] - Put all file properties
-[INFO] 08-03-2026 16:45:19 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 08-03-2026 16:45:19 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 08-03-2026 16:45:19 [main] [LogUtils] - Put all file properties
-[INFO] 08-03-2026 16:45:32 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 08-03-2026 16:45:39 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
-[INFO] 08-03-2026 16:45:39 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
-[INFO] 08-03-2026 16:45:39 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3992a0ba38df6efac5de8707f65dd311)
-[INFO] 08-03-2026 16:45:41 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
-[INFO] 08-03-2026 16:45:41 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-[INFO] 08-03-2026 16:45:42 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 08-03-2026 16:45:42 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 08-03-2026 16:50:57 [main] [LogUtils] - *******RUN START********
-[INFO] 08-03-2026 16:50:57 [main] [LogUtils] - Put all file properties
-[INFO] 08-03-2026 16:50:57 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 08-03-2026 16:50:57 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 08-03-2026 16:50:57 [main] [LogUtils] - Put all file properties
-[INFO] 08-03-2026 16:51:07 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 08-03-2026 16:51:11 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
-[INFO] 08-03-2026 16:51:11 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
-[INFO] 08-03-2026 16:51:11 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (b5cf512dd69261458b64dc9b6a415f6e)
-[INFO] 08-03-2026 16:51:11 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
-[INFO] 08-03-2026 16:51:11 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-[INFO] 08-03-2026 16:51:12 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 08-03-2026 16:51:12 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 18-03-2026 14:32:21 [main] [LogUtils] - *******RUN START********
+[INFO] 18-03-2026 14:32:21 [main] [LogUtils] - Put all file properties
+[INFO] 18-03-2026 14:32:21 [main] [LogUtils] - Put all file properties
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - *******RUN START********
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Put all file properties
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Put all file properties
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 18-03-2026 14:38:54 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
+[INFO] 18-03-2026 14:39:06 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6cd19de68d311f6388c03d421355f3fc)
+[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 18-03-2026 14:39:45 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 18-03-2026 14:39:45 [main] [LogUtils] - =====> End Suite: Regression Tests
