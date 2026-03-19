@@ -3,12 +3,16 @@ package com.orangehrmlive.listeners;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.model.ScreenCapture;
+import com.github.automatedowl.tools.AllureEnvironmentWriter;
+import com.google.common.collect.ImmutableMap;
 import com.orangehrmlive.annotations.FrameWorkAnnotation;
 import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.driver.DriverManager;
 import com.orangehrmlive.enums.AuthorType;
+import com.orangehrmlive.enums.Browser;
 import com.orangehrmlive.enums.CategoryType;
 import com.orangehrmlive.helpers.CaptureHelpers;
+import com.orangehrmlive.helpers.FileHelpers;
 import com.orangehrmlive.helpers.PropertiesHelpers;
 import com.orangehrmlive.helpers.ScreenRecorderHelpers;
 import com.orangehrmlive.keywords.WebUI;
@@ -44,6 +48,13 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
         LogUtils.info("********** RUN FINISHED **********");
         LogUtils.info("=====> End Suite: " + iSuite.getName());
         ExtentReportManager.flushReports();
+        AllureEnvironmentWriter.allureEnvironmentWriter(ImmutableMap.<String, String>builder().put("Target Execution", FrameworkConstants.TARGET).put("Global Timeout", String.valueOf(FrameworkConstants.WAIT_DEFAULT)).put("Page Load Timeout", String.valueOf(FrameworkConstants.WAIT_PAGE_LOADED)).put("Headless Mode", FrameworkConstants.HEADLESS).put("Local Browser", String.valueOf(Browser.CHROME)).put("Remote URL", FrameworkConstants.REMOTE_URL).put("Remote Port", FrameworkConstants.REMOTE_PORT).put("TCs Total", String.valueOf(count_TotalTCs)).put("TCs Passed", String.valueOf(count_passedTCs)).put("TCs Skipped", String.valueOf(count_skippedTCs)).put("TCs Failed", String.valueOf(count_failedTCs)).build());
+        FileHelpers.copyFile("src/test/resources/config/allure/categories.json", "target/allure-results/categories.json");
+        FileHelpers.copyFile("src/test/resources/config/allure/executor.json", "target/allure-results/executor.json");
+
+
+        //FileHelpers.copyFile("src/test/resources/config/allure/environment.xml", "target/allure-results/environment.xml");
+
     }
     public String getTestName(ITestResult iTestResult){
         return iTestResult.getTestName() != null ? iTestResult.getTestName() :iTestResult.getMethod().getConstructorOrMethod().getName();

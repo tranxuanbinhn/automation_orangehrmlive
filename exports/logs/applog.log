@@ -1,20 +1,85 @@
-[INFO] 18-03-2026 14:32:21 [main] [LogUtils] - *******RUN START********
-[INFO] 18-03-2026 14:32:21 [main] [LogUtils] - Put all file properties
-[INFO] 18-03-2026 14:32:21 [main] [LogUtils] - Put all file properties
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - *******RUN START********
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Put all file properties
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Put all file properties
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 18-03-2026 14:38:48 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 18-03-2026 14:38:54 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
-[INFO] 18-03-2026 14:39:06 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
-[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
-[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6cd19de68d311f6388c03d421355f3fc)
-[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
-[INFO] 18-03-2026 14:39:44 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-[INFO] 18-03-2026 14:39:45 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 18-03-2026 14:39:45 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 19-03-2026 10:15:42 [main] [LogUtils] - *******RUN START********
+[INFO] 19-03-2026 10:15:42 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 10:15:42 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 10:15:42 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 19-03-2026 10:15:42 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 19-03-2026 10:15:43 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 19-03-2026 10:15:43 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 19-03-2026 10:15:43 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 19-03-2026 10:15:50 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
+[INFO] 19-03-2026 10:15:58 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 19-03-2026 10:16:03 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 19-03-2026 10:16:03 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 19-03-2026 10:16:03 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (510b07f6f3c98ad0a3335a9720c53784)
+[INFO] 19-03-2026 10:16:04 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 19-03-2026 10:16:04 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 19-03-2026 10:16:05 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 19-03-2026 10:16:05 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - *******RUN START********
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 19-03-2026 14:36:58 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 19-03-2026 14:37:02 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
+[INFO] 19-03-2026 14:37:09 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 19-03-2026 14:37:13 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 19-03-2026 14:37:14 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 19-03-2026 14:37:14 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (36bf63cc56c733cace6b6bbafed904b0)
+[INFO] 19-03-2026 14:37:14 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 19-03-2026 14:37:14 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 19-03-2026 14:37:14 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 19-03-2026 14:37:14 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - *******RUN START********
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 19-03-2026 14:42:44 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 19-03-2026 14:42:48 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
+[INFO] 19-03-2026 14:42:55 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 19-03-2026 14:42:59 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 19-03-2026 14:42:59 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 19-03-2026 14:43:00 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3dc7312094715049f6b8d84413e8b663)
+[INFO] 19-03-2026 14:43:00 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 19-03-2026 14:43:00 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 19-03-2026 14:43:01 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 19-03-2026 14:43:01 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - *******RUN START********
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 19-03-2026 14:52:21 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 19-03-2026 14:52:25 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
+[INFO] 19-03-2026 14:52:32 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 19-03-2026 14:52:37 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 19-03-2026 14:52:38 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 19-03-2026 14:52:38 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (d2190cc87a22d66ad43e683dbae147d4)
+[INFO] 19-03-2026 14:52:38 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 19-03-2026 14:52:38 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 19-03-2026 14:52:39 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 19-03-2026 14:52:39 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - *******RUN START********
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - Put all file properties
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 19-03-2026 15:01:35 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 19-03-2026 15:01:38 [main] [LogUtils] - Testcase signInWithAdminRole is starting....
+[INFO] 19-03-2026 15:01:46 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 19-03-2026 15:01:50 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 19-03-2026 15:01:50 [main] [LogUtils] - TEST SUCCESS!!! Test case signInWithAdminRole pass
+[INFO] 19-03-2026 15:01:50 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (ccb3805f0c4c5b8ffd54a6986ec46632)
+[INFO] 19-03-2026 15:01:50 [main] [LogUtils] - Screenshot taken: signInWithAdminRole
+[INFO] 19-03-2026 15:01:50 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] 19-03-2026 15:01:51 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 19-03-2026 15:01:51 [main] [LogUtils] - =====> End Suite: Regression Tests
