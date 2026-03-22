@@ -1,4 +1,4 @@
-package com.orangehrmlive.projects.crm.models;
+package com.orangehrmlive.projects.cms.models;
 
 import lombok.Data;
 import lombok.Getter;

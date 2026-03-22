@@ -1,4 +1,4 @@
-package com.orangehrmlive.projects.crm.pages;
+package com.orangehrmlive.projects.cms.pages;
 
 import org.openqa.selenium.By;
 

@@ -4,7 +4,7 @@ import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.helpers.ExcelHelpers;
 import com.orangehrmlive.helpers.PropertiesHelpers;
 import com.orangehrmlive.helpers.SystemHelpers;
-import com.orangehrmlive.projects.crm.models.SignInModel;
+import com.orangehrmlive.projects.cms.models.SignInModel;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

@@ -5,7 +5,7 @@ import com.orangehrmlive.driver.BrowserFactory;
 import com.orangehrmlive.driver.DriverManager;
 import com.orangehrmlive.keywords.WebUI;
 import com.orangehrmlive.listeners.TestListener;
-import com.orangehrmlive.projects.crm.pages.CommonPageCRM;
+import com.orangehrmlive.projects.cms.pages.CommonPageCRM;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 

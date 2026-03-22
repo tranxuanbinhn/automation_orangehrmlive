@@ -1,9 +1,9 @@
-package com.orangehrmlive.projects.crm.pages;
+package com.orangehrmlive.projects.cms.pages;
 
-import com.orangehrmlive.projects.crm.pages.SignIn.SignInPageCRM;
+import com.orangehrmlive.projects.cms.pages.SignIn.SignInPageCMS;
 
 public class CommonPageCRM {
-    private SignInPageCRM signInPageCRM;
+    private SignInPageCMS signInPageCMS;
     private DashBoardPageCRM dashBoardPage;
 
 public DashBoardPageCRM getDashBoardPage(){

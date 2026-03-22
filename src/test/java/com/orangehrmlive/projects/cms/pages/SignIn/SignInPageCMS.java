@@ -1,22 +1,22 @@
-package com.orangehrmlive.projects.crm.pages.SignIn;
+package com.orangehrmlive.projects.cms.pages.SignIn;
 
 import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.helpers.ExcelHelpers;
-import com.orangehrmlive.projects.crm.models.SignInModel;
-import com.orangehrmlive.projects.crm.pages.CommonPageCRM;
-import com.orangehrmlive.projects.crm.pages.DashBoardPageCRM;
+import com.orangehrmlive.projects.cms.models.SignInModel;
+import com.orangehrmlive.projects.cms.pages.CommonPageCRM;
+import com.orangehrmlive.projects.cms.pages.DashBoardPageCRM;
 import com.orangehrmlive.utils.DecodeUtils;
 import org.openqa.selenium.By;
 
 import static com.orangehrmlive.keywords.WebUI.*;
 
-public class SignInPageCRM extends CommonPageCRM {
+public class SignInPageCMS extends CommonPageCRM {
     private String pageURL = "/auth/login";
     private By inputUsername = By.xpath("//input[@placeholder='Username']");
     private By inputPassword = By.xpath("//input[@placeholder='Password']");
     private By buttonSign = By.xpath("//button[normalize-space()='Login']");
 
-    public SignInPageCRM() {
+    public SignInPageCMS() {
     }
 
     public DashBoardPageCRM signInWithAdminRole() {
