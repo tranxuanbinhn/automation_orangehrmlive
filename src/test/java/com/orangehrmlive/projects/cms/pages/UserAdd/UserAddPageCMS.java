@@ -1,9 +1,10 @@
-package com.orangehrmlive.projects.cms.pages.UserManagement;
+package com.orangehrmlive.projects.cms.pages.UserAdd;
 
 import com.orangehrmlive.projects.cms.pages.CommonPageCRM;
+import com.orangehrmlive.projects.cms.pages.UserManagement.UserManagementPageCMS;
 import org.openqa.selenium.By;
 
-public class UserManagementCMS extends CommonPageCRM {
+public class UserAddPageCMS extends CommonPageCRM {
     private By selectUserRoleClick = By.xpath("(//div[@class='oxd-select-text oxd-select-text--active'])[1]");
     private By inputElementName = By.xpath("//input[@placeholder='Type for hints...']");
     private By selectUserStatusClick = By.xpath("(//div[contains(text(),'-- Select --')])[1]");
@@ -15,5 +16,11 @@ public class UserManagementCMS extends CommonPageCRM {
     private By selectStatusEnabled = By.xpath("//div[contains(@class,'oxd-select-option')][.//text()='Enabled']");
     private By selectRoleAdmin = By.xpath("//div[contains(@class,'oxd-select-option')][.//text()='Admin']");
     private By selectRoleESS = By.xpath("//div[contains(@class,'oxd-select-option')][.//text()='ESS']");
+    private By dropdownEmployeeName = By.xpath("//div[@class='oxd-autocomplete-dropdown'][@role='listbox']");
+    private By  optionEmployeeName = By.xpath("(//div[@class='oxd-autocomplete-option'][@role='option'])[1]");
 
+    public UserManagementPageCMS addNewUser(Long role, String EmployeeName, Long status, String username, String password, String conpassword){
+
+        return new UserManagementPageCMS();
+    }
 }
