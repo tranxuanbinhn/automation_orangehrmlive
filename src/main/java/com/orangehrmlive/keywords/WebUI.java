@@ -4,6 +4,7 @@ import com.mysql.cj.log.Log;
 import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.driver.DriverManager;
 import com.orangehrmlive.utils.LogUtils;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
@@ -11,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
@@ -59,7 +61,8 @@ public static void waitForPageLoad(){
     }
     public static boolean verifyEquals(String actucal, String expect, String message){
 
-
+            actucal = actucal.trim();
+            expect = expect.trim();
             boolean result =  actucal.equals(expect);
             if(result){
                 LogUtils.info("Verify Equals: "+actucal+"="+expect);
@@ -94,6 +97,48 @@ public static void waitForPageLoad(){
             sleep(FrameworkConstants.WAIT_SLEEP_STEP);
         }
     }
+    @Step("Verify element visible {0}")
+    public static boolean verifyElementVisible(By by, String message) {
+        smartWait();
+        LogUtils.info("Verify element visible " + by);
+        try {
+            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.WAIT_EXPLICIT));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            return true;
+        } catch (Exception e) {
+            if (message.isEmpty()) {
+                LogUtils.error("The element is not visible. " + by);
+                Assert.fail("The element is NOT visible. " + by);
+            } else {
+                LogUtils.error(message + by);
+                Assert.fail(message + by);
+            }
+            return false;
+        }
+    }
+    public static void waitForPageLoaded() {
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.WAIT_PAGE_LOADED));
+        JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+
+        // wait for Javascript to loaded
+        ExpectedCondition<Boolean> jsLoad = driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
+
+        //Get JS is Ready
+        boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
+
+        //Wait Javascript until it is Ready!
+        if (!jsReady) {
+            //LogUtils.info("Javascript in NOT Ready!");
+            //Wait for Javascript to load
+            try {
+                wait.until(jsLoad);
+            } catch (Throwable error) {
+                LogUtils.error("Timeout waiting for page load. (" + FrameworkConstants.WAIT_PAGE_LOADED + "s)");
+                Assert.fail("Timeout waiting for page load. (" + FrameworkConstants.WAIT_PAGE_LOADED + "s)");
+            }
+        }
+    }
+
     public static WebElement waitForElementPresent(By by){
         try{
             WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(FrameworkConstants.WAIT_EXPLICIT));
@@ -153,6 +198,10 @@ public static void waitForPageLoad(){
     public static void setText(By by, String value){
         smartWait();
         waitForElementVisible(by).sendKeys(value);
+    }
+    public static String getText(By by){
+        smartWait();
+       return waitForElementVisible(by).getText();
     }
     public static void clickElement(By by){
         smartWait();

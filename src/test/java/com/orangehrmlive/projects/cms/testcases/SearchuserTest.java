@@ -2,30 +2,28 @@ package com.orangehrmlive.projects.cms.testcases;
 
 import com.orangehrmlive.common.BaseTest;
 import com.orangehrmlive.constants.FrameworkConstants;
-import com.orangehrmlive.dataprovider.DataProviderAddUser;
+import com.orangehrmlive.dataprovider.DataProviderSearchUser;
 import com.orangehrmlive.helpers.ExcelHelpers;
-import com.orangehrmlive.projects.cms.pages.UserManagement.UserAdd.UserAddPageCMS;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.Hashtable;
 
-public class AdduserTest extends BaseTest {
+public class SearchuserTest extends BaseTest {
     private SignInTest signInTest;
-    private UserAddPageCMS userAddPageCMS;
+
     @BeforeClass
     private void prepareDate(){
+        signInTest = new SignInTest();
         signInTest.signInWithAdminRole();
     }
-
-    @Test(dataProvider = "data_provider_add_user", dataProviderClass = DataProviderAddUser.class)
-    public void addUser(Hashtable<String, String> data){
+    @Test(dataProvider = "data_provider_search_user", dataProviderClass = DataProviderSearchUser.class)
+    public void searchUser(Hashtable<String, String> data){
         ExcelHelpers excelHelpers = new ExcelHelpers();
-        excelHelpers.setExcelFile(FrameworkConstants.EXCEL_CMS_DATA, "AddUser");
+        excelHelpers.setExcelFile(FrameworkConstants.EXCEL_CMS_DATA, "SearchUser");
+        getUserSearchPage().searchByUserName(data.get("username"));
 
 
     }
-
-
 
 }

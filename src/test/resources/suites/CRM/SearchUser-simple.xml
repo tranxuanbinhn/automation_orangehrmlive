@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Regression Tests">
-    <test name="Sign in Test">
+    <test name="Search User">
         <parameter name="BROWSER" value="chrome"/>
             <classes>
-                <class name="com.orangehrmlive.projects.cms.testcases.SignInTest">
+                <class name="com.orangehrmlive.projects.cms.testcases.SearchuserTest">
 
                 </class>
             </classes>
 
     </test>
-
+    
 </suite>
