@@ -83,6 +83,7 @@ public static void waitForPageLoad(){
             LogUtils.info(actual + " contains "+expect);
         }
         else {
+            LogUtils.info(actual + " not contains "+expect);
             LogUtils.info(message);
         }
         return result;

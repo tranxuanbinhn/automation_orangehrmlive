@@ -1,5 +1,6 @@
 package com.orangehrmlive.helpers;
 
+import com.orangehrmlive.utils.LogUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -84,67 +85,52 @@ public void setExcelFile(String excelFile, String sheetName){
 
     public Object[][] getDataHashTable(String excelPath, String sheetName, int startRow, int endRow) {
         Object[][] data = null;
-        try {
-            File f = new File(excelPath);
-            if (!f.exists()) {
-                try {
+        // Sử dụng try-with-resources để tự động đóng file sau khi đọc xong
+        try (FileInputStream fis = new FileInputStream(excelPath);
+             XSSFWorkbook workbook = new XSSFWorkbook(fis)) {
 
-                    System.out.println("Not found");
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-            fis = new FileInputStream(excelPath);
-            workbook =new XSSFWorkbook(fis);
             sheet = workbook.getSheet(sheetName);
+            int columns = getColumns(); // Giả định hàm này lấy số cột của sheet hiện tại
 
-            int row = getRows();
-            int columns = getColumns();
-            data =new Object[(endRow-startRow)+1][1];
-            Hashtable<String, String>table = null;
-            for (int rowNums = startRow; rowNums <= endRow; rowNums++) {
-                table = new Hashtable<>();
-                for (int colNum = 0; colNum < columns; colNum++) {
-                    table.put(getCellData(0, colNum), getCellData(rowNums, colNum));
+            // Khởi tạo mảng 2 chiều: số hàng cần lấy x 1 cột (chứa Hashtable)
+            data = new Object[(endRow - startRow) + 1][1];
+
+            for (int i = startRow; i <= endRow; i++) {
+                Hashtable<String, String> table = new Hashtable<>();
+                for (int j = 0; j < columns; j++) {
+                    // Dòng 0 thường là Header (Key), dòng i là dữ liệu (Value)
+                    String key = getCellData(0, j);
+                    String value = getCellData(i, j);
+                    if (key != null && value != null) {
+                        table.put(key, value);
+                    }
                 }
-                data[rowNums - startRow][0] = table;
+                data[i - startRow][0] = table;
             }
-
-
         } catch (Exception e) {
+            LogUtils.error("Lỗi khi đọc file Excel: " + e.getMessage());
             e.printStackTrace();
         }
         return data;
-
     }
     public String getCellData(int rowNum, int colNum) {
         try {
+            // Kiểm tra xem dòng có tồn tại không để tránh NullPointerException
+            if (sheet.getRow(rowNum) == null) return "";
+
             cell = sheet.getRow(rowNum).getCell(colNum);
-            String CellData = null;
-            switch (cell.getCellType()) {
-                case STRING:
-                    CellData = cell.getStringCellValue();
-                    break;
-                case NUMERIC:
-                    if (DateUtil.isCellDateFormatted(cell)) {
-                        CellData = String.valueOf(cell.getDateCellValue());
-                    } else {
-                        CellData = String.valueOf((long) cell.getNumericCellValue());
-                    }
-                    break;
-                case BOOLEAN:
-                    CellData = Boolean.toString(cell.getBooleanCellValue());
-                    break;
-                case BLANK:
-                    CellData = "";
-                    break;
-            }
-            return CellData;
+            if (cell == null) return ""; // Kiểm tra ô có tồn tại không
+
+            // Dùng DataFormatter để lấy đúng định dạng hiển thị trong Excel (kể cả số, ngày tháng)
+            DataFormatter formatter = new DataFormatter();
+            return formatter.formatCellValue(cell);
+
         } catch (Exception e) {
             return "";
         }
     }
-    public String getCellData(int rowNum, String columnName) {
+
+   public String getCellData(int rowNum, String columnName) {
         return getCellData(rowNum, columns.get(columnName));
     }
 

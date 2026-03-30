@@ -1,0 +1,71 @@
+[INFO] 24-03-2026 20:01:09 [main] [LogUtils] - *******RUN START********
+[INFO] 24-03-2026 20:01:09 [main] [LogUtils] - Put all file properties
+[INFO] 24-03-2026 20:01:09 [main] [LogUtils] - Put all file properties
+[INFO] 24-03-2026 20:01:10 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 24-03-2026 20:01:10 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 24-03-2026 20:01:10 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 24-03-2026 20:01:10 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 24-03-2026 20:01:10 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 24-03-2026 20:01:26 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 24-03-2026 20:01:26 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 24-03-2026 20:01:26 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (2b8ad63fc3e3eee34656d512d474ebac)
+[INFO] 24-03-2026 20:01:26 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 24-03-2026 20:01:26 [main] [LogUtils] - Screenshot taken current URL: data:,
+[INFO] 24-03-2026 20:01:27 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 24-03-2026 20:01:27 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 24-03-2026 20:06:57 [main] [LogUtils] - *******RUN START********
+[INFO] 24-03-2026 20:06:57 [main] [LogUtils] - Put all file properties
+[INFO] 24-03-2026 20:06:57 [main] [LogUtils] - Put all file properties
+[INFO] 24-03-2026 20:06:57 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 24-03-2026 20:06:57 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 24-03-2026 20:06:58 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 24-03-2026 20:06:58 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 24-03-2026 20:06:58 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 24-03-2026 20:07:11 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[ERROR] 24-03-2026 20:07:28 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //nav[@aria-label='Sidepanel'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - *******RUN START********
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - Put all file properties
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - Put all file properties
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 24-03-2026 20:08:35 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 24-03-2026 20:08:50 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 24-03-2026 20:09:17 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard page.
+[INFO] 24-03-2026 20:09:17 [main] [LogUtils] - Testcase searchUser is starting....
+[ERROR] 24-03-2026 20:09:40 [main] [LogUtils] - Element not exist invalid selector: Unable to locate an element with the xpath expression //button(@normalize-space='Search') because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button(@normalize-space='Search')' is not a valid XPath expression.
+  (Session info: chrome=146.0.7680.164)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38f27a3a3df6287b3faa34488dde1230, findElement {value=//button(@normalize-space='Search'), using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.164, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\super\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1894}, goog:processID: 4044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1894/devtool..., se:cdpVersion: 146.0.7680.164, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38f27a3a3df6287b3faa34488dde1230
+[ERROR] 24-03-2026 20:09:40 [main] [LogUtils] - Element is not visible
+[INFO] 24-03-2026 20:09:40 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 24-03-2026 20:09:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (38f27a3a3df6287b3faa34488dde1230)
+[INFO] 24-03-2026 20:09:40 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 24-03-2026 20:09:40 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - Timeout for load Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {args=[], script=return document.readyState}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.164, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\super\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1894}, goog:processID: 4044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1894/devtool..., se:cdpVersion: 146.0.7680.164, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 24-03-2026 20:09:41 [main] [LogUtils] - Element not exist Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//a[@href='/web/index.php/admin/viewAdminModule'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.164, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\super\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1894}, goog:processID: 4044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1894/devtool..., se:cdpVersion: 146.0.7680.164, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 24-03-2026 20:09:41 [main] [LogUtils] - Element is not visible
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 24-03-2026 20:09:41 [main] [LogUtils] - =====> End Suite: Regression Tests

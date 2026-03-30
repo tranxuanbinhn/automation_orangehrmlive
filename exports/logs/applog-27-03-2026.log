@@ -1,0 +1,174 @@
+[INFO] 27-03-2026 19:48:58 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 19:48:58 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 19:48:58 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 19:48:59 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 19:48:59 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 19:48:59 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 19:48:59 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 19:48:59 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 19:49:10 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 19:50:14 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 19:50:24 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 19:50:29 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 19:50:29 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 19:50:29 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (eb6b5c59087b2a3c3093d30503e871dc)
+[INFO] 27-03-2026 19:50:29 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 19:50:29 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 19:50:30 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 27-03-2026 19:57:53 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 19:57:53 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 19:57:53 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 19:57:54 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 19:57:54 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 19:57:54 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 19:57:54 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 19:57:54 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 19:57:58 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 19:59:33 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 19:59:41 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 19:59:46 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 19:59:46 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 19:59:46 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3035451ccb51fe98fa0767535a252905)
+[INFO] 27-03-2026 19:59:46 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 19:59:46 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 19:59:47 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 20:01:04 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 20:01:11 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:01:17 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 20:01:21 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (bd8d6b3d80ad56d836ff7d6b7ed5f31f)
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 20:01:25 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 20:10:47 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 20:10:51 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:11:03 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 20:11:11 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 20:11:13 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (a1c9c303951d7c0861cfbeb90efce503)
+[INFO] 27-03-2026 20:11:14 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (a1c9c303951d7c0861cfbeb90efce503)
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 20:11:15 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 20:12:07 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 20:12:11 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:12:23 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 20:12:29 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 20:12:31 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (4bf7d1a7b93440b238b614cd168f3adf)
+[INFO] 27-03-2026 20:12:31 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (4bf7d1a7b93440b238b614cd168f3adf)
+[INFO] 27-03-2026 20:12:33 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 20:12:33 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 20:12:33 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (4bf7d1a7b93440b238b614cd168f3adf)
+[INFO] 27-03-2026 20:12:33 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 20:12:34 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 27-03-2026 20:13:41 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 20:13:41 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:13:41 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:13:41 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 20:13:41 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 20:13:42 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 20:13:42 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 20:13:42 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 20:13:45 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:13:57 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 20:14:02 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 20:14:04 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (2b064baf4caca98881f03320764066c0)
+[INFO] 27-03-2026 20:14:04 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (2b064baf4caca98881f03320764066c0)
+[INFO] 27-03-2026 20:14:05 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (2b064baf4caca98881f03320764066c0)
+[INFO] 27-03-2026 20:14:05 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (2b064baf4caca98881f03320764066c0)
+[INFO] 27-03-2026 20:14:05 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 20:14:05 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (2b064baf4caca98881f03320764066c0)
+[INFO] 27-03-2026 20:14:06 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 20:14:06 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (2b064baf4caca98881f03320764066c0)
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 20:14:07 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - *******RUN START********
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - Put all file properties
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 27-03-2026 20:16:03 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 27-03-2026 20:16:07 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:16:11 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 27-03-2026 20:16:16 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 27-03-2026 20:16:18 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (56a68043ef30119f7f68e1f85ea3a03e)
+[INFO] 27-03-2026 20:16:20 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (56a68043ef30119f7f68e1f85ea3a03e)
+[INFO] 27-03-2026 20:16:20 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (56a68043ef30119f7f68e1f85ea3a03e)
+[INFO] 27-03-2026 20:16:20 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (56a68043ef30119f7f68e1f85ea3a03e)
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - Verify Equals: =
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (56a68043ef30119f7f68e1f85ea3a03e)
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (56a68043ef30119f7f68e1f85ea3a03e)
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 27-03-2026 20:16:21 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 27-03-2026 20:16:22 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:16:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:16:22 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 27-03-2026 20:16:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 27-03-2026 20:16:22 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 27-03-2026 20:16:22 [main] [LogUtils] - =====> End Suite: Default Suite

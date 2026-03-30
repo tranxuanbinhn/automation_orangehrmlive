@@ -1,6 +1,7 @@
 package com.orangehrmlive.driver;
 
 import com.orangehrmlive.constants.FrameworkConstants;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -46,4 +47,6 @@ public enum BrowserFactory {
     };
     public abstract WebDriver createDriver();
     private static final String START_MAXIMIZED = "--start-maximized";
+    public abstract MutableCapabilities getOptions();
+
 }
