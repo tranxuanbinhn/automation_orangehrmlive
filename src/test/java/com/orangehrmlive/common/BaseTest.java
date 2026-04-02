@@ -16,7 +16,7 @@ import org.testng.annotations.*;
 @Listeners({TestListener.class})
 public class BaseTest extends CommonPageCRM {
     @Parameters("BROWSER")
-    @BeforeClass
+    @BeforeMethod
     public void createDriver(@Optional("chrome") String browser){
         WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         if (Boolean.valueOf(FrameworkConstants.HEADLESS) == true) {

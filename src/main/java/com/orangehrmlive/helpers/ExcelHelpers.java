@@ -96,6 +96,7 @@ public void setExcelFile(String excelFile, String sheetName){
             data = new Object[(endRow - startRow) + 1][1];
 
             for (int i = startRow; i <= endRow; i++) {
+                LogUtils.info("Ex "+ i);
                 Hashtable<String, String> table = new Hashtable<>();
                 for (int j = 0; j < columns; j++) {
                     // Dòng 0 thường là Header (Key), dòng i là dữ liệu (Value)

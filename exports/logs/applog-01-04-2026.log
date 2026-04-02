@@ -1,0 +1,169 @@
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - *******RUN START********
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 01-04-2026 16:52:18 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 01-04-2026 16:52:28 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 16:52:34 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 01-04-2026 16:52:40 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 01-04-2026 16:52:44 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 16:52:44 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (16c869b58a50b267c50d91be3253ba7d)
+[INFO] 01-04-2026 16:52:44 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 01-04-2026 16:52:44 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 01-04-2026 16:52:45 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - *******RUN START********
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 01-04-2026 16:58:02 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 01-04-2026 16:58:10 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 16:58:16 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 01-04-2026 16:58:21 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 01-04-2026 16:58:25 [main] [LogUtils] - Element not exist invalid selector: Unable to locate an element with the xpath expression //button[@normalize-space()='Add'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@normalize-space()='Add']' is not a valid XPath expression.
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50fddd0dd6f8e39c2b3eda65f7805374, findElement {using=xpath, value=//button[@normalize-space()='Add']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\super\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:20654}, goog:processID: 24668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:20654/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50fddd0dd6f8e39c2b3eda65f7805374
+[ERROR] 01-04-2026 16:58:25 [main] [LogUtils] - Element is not visible
+[INFO] 01-04-2026 16:58:25 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 16:58:25 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (50fddd0dd6f8e39c2b3eda65f7805374)
+[INFO] 01-04-2026 16:58:25 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 01-04-2026 16:58:25 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 01-04-2026 16:58:26 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 01-04-2026 17:01:36 [main] [LogUtils] - *******RUN START********
+[INFO] 01-04-2026 17:01:36 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:01:36 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:01:37 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 01-04-2026 17:01:37 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 01-04-2026 17:01:38 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 01-04-2026 17:01:38 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 01-04-2026 17:01:38 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 01-04-2026 17:01:42 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:01:47 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 01-04-2026 17:01:53 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 01-04-2026 17:02:11 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 01-04-2026 17:02:22 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 01-04-2026 17:02:22 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser not contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 17:02:22 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard User Management
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (5633f0deb42c804c267f0ac26845e89b)
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 01-04-2026 17:02:23 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 01-04-2026 17:24:22 [main] [LogUtils] - *******RUN START********
+[INFO] 01-04-2026 17:24:22 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:24:22 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:24:23 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 01-04-2026 17:24:23 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 01-04-2026 17:24:23 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 01-04-2026 17:24:23 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 01-04-2026 17:24:23 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 01-04-2026 17:24:29 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:24:37 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 01-04-2026 17:24:53 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 01-04-2026 17:25:25 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 01-04-2026 17:25:36 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 01-04-2026 17:25:36 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser not contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 17:25:36 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard User Management
+[INFO] 01-04-2026 17:25:37 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 01-04-2026 17:25:37 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (47879d4397b1084765e61b9ffee26274)
+[INFO] 01-04-2026 17:25:39 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 01-04-2026 17:25:39 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 01-04-2026 17:25:40 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - *******RUN START********
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 01-04-2026 17:29:30 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 01-04-2026 17:29:35 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:29:42 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 01-04-2026 17:29:50 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 01-04-2026 17:30:07 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 01-04-2026 17:30:18 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (68c2070f8ecfc096f980ebe212635975)
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:30:19 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:30:20 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:30:20 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:30:20 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 01-04-2026 17:30:20 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - *******RUN START********
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - Put all file properties
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 01-04-2026 17:40:36 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 1
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 2
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 3
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 4
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 5
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 6
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 7
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 8
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 9
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 10
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Ex 11
+[INFO] 01-04-2026 17:40:41 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:40:47 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 01-04-2026 17:40:51 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 01-04-2026 17:41:15 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 01-04-2026 17:41:27 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 01-04-2026 17:41:27 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser not contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 17:41:27 [main] [LogUtils] - Sign in failed. Can not redirect to Dashboard User Management
+[INFO] 01-04-2026 17:41:27 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 01-04-2026 17:41:27 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6bdda0e26f0917e9752b11f803465035)
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 01-04-2026 17:41:30 [main] [LogUtils] - =====> End Suite: Regression Tests

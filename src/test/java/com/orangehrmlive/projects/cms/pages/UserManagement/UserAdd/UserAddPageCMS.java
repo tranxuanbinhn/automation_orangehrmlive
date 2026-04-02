@@ -1,5 +1,7 @@
 package com.orangehrmlive.projects.cms.pages.UserManagement.UserAdd;
 import static com.orangehrmlive.keywords.WebUI.*;
+
+import com.orangehrmlive.keywords.WebUI;
 import com.orangehrmlive.projects.cms.pages.CommonPageCRM;
 import com.orangehrmlive.projects.cms.pages.UserManagement.UserManagementPageCMS;
 import org.openqa.selenium.By;
@@ -19,25 +21,27 @@ public class UserAddPageCMS extends CommonPageCRM {
     private By selectRoleESS = By.xpath("//div[contains(@class,'oxd-select-option')][.//text()='ESS']");
     private By dropdownEmployeeName = By.xpath("//div[@class='oxd-autocomplete-dropdown'][@role='listbox']");
     private By  optionEmployeeName = By.xpath("(//div[@class='oxd-autocomplete-option'][@role='option'])[1]");
-
-    public UserManagementPageCMS addNewUser(Long role, String EmployeeName, Long status, String username, String password, String conpassword){
+    private By toastSuccess = By.xpath("//p[contains(@class, 'oxd-text--toast-title') and text()='Success']");
+    public UserManagementPageCMS addNewUser(String role, String employeeName, String status, String username, String password, String conpassword){
         clickMenuAdmin();
+        userManagementPageCMS = new UserManagementPageCMS();
         userManagementPageCMS.clickButtonAddUser();
         clickElement(selectUserRoleClick);
-        if (status ==1){
+
+        if (Long.parseLong(role) ==1){
             clickElement(selectRoleAdmin);
         }
         else{
             clickElement(selectRoleESS);
         }
         clickElement(selectUserStatusClick);
-        if (status ==1){
+        if (Long.parseLong(status) ==1){
             clickElement(selectStatusEnabled);
         }
         else{
             clickElement(selectStatusDisabled);
         }
-        setText(inputEmployeeName, EmployeeName);
+        setText(inputEmployeeName, employeeName);
         waitForElementPresent(dropdownEmployeeName);
         clickElement(optionEmployeeName);
         setText(inputUsername,username);
@@ -45,7 +49,9 @@ public class UserAddPageCMS extends CommonPageCRM {
         setText(inputConfirmPassword,conpassword);
         clickElement(buttonSubmit);
         waitForElementPresent(UserManagementPageCMS.getUserManagement());
-        verifyContains(getCurrentUrl(),UserManagementPageCMS.getUrl(),"Sign in failed. Can not redirect to Dashboard User Management");
+        waitForElementPresent(toastSuccess);
+        WebUI.verifyEquals(WebUI.getText(toastSuccess),"Success", "Add Fail");
+        verifyContains(getCurrentUrl(),UserManagementPageCMS.getUrl(),"Add failed. Can not redirect to Dashboard User Management");
         return new UserManagementPageCMS();
     }
     public void verifyNewProduct(Long role, String EmployeeName, Long status, String username, String password, String conpassword){

@@ -1,182 +1,463 @@
-[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:07:03 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:07:03 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:07:03 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:07:08 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:07:13 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 28-03-2026 19:07:17 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 28-03-2026 19:07:19 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
-[INFO] 28-03-2026 19:07:20 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
-[INFO] 28-03-2026 19:07:20 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Verify Equals: !=Admin
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Screenshot taken: searchUser
-[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 28-03-2026 19:07:38 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:07:38 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:07:38 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:07:43 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:07:47 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 28-03-2026 19:07:51 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 28-03-2026 19:07:53 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
-[INFO] 28-03-2026 19:07:54 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
-[INFO] 28-03-2026 19:07:54 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
-[INFO] 28-03-2026 19:07:54 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Verify Equals: !=Admin
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Screenshot taken: searchUser
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:09:27 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:09:31 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 28-03-2026 19:09:35 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 28-03-2026 19:09:37 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
-[INFO] 28-03-2026 19:09:38 [main] [LogUtils] - Driver after set tex, usernameChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9) 
-[INFO] 28-03-2026 19:09:38 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Verify Equals: !=Admin
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Screenshot taken: searchUser
-[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:15:15 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:15:15 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:15:15 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:15:59 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:29:06 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:29:06 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:29:06 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:45:40 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:45:40 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:45:40 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 19:46:40 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 19:46:49 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 28-03-2026 19:54:05 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 20:03:01 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 20:04:46 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 20:04:51 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 28-03-2026 20:04:55 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 28-03-2026 20:04:57 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
-[INFO] 28-03-2026 20:04:58 [main] [LogUtils] - Driver after set tex, usernameChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47) Admin
-[INFO] 28-03-2026 20:04:59 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Verify Equals: Admin=Admin
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Screenshot taken: searchUser
-[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 28-03-2026 20:05:01 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 28-03-2026 20:05:01 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - *******RUN START********
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Put all file properties
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 28-03-2026 20:12:29 [main] [LogUtils] - Testcase searchUser is starting....
-[INFO] 28-03-2026 20:12:34 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 28-03-2026 20:12:37 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 28-03-2026 20:12:40 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
-[INFO] 28-03-2026 20:12:40 [main] [LogUtils] - Driver after set tex, usernameChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2) Admin
-[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
-[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
-[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Verify Equals: Admin=Admin
-[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
-[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
-[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
-[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - Screenshot taken: searchUser
-[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 02-04-2026 21:22:24 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 21:22:24 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:22:24 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:22:25 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 21:22:25 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 21:22:25 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 21:22:25 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 21:22:25 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 1
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 2
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 3
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 4
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 5
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 6
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 7
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 8
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 9
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 10
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Ex 11
+[INFO] 02-04-2026 21:22:30 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:22:35 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:22:41 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 21:22:58 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:23:08 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:23:08 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (90470f7da806c489196a548623b5cc32)
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 02-04-2026 21:23:09 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 21:26:31 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 1
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 2
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 3
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 4
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 5
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 6
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 7
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 8
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 9
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 10
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Ex 11
+[INFO] 02-04-2026 21:26:37 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:26:41 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:26:45 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 21:27:01 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:27:13 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:27:13 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:27:13 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:27:13 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (2ecf7b8fbcdfa2b407da033934299ca5)
+[INFO] 02-04-2026 21:27:13 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:27:13 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 02-04-2026 21:27:14 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 02-04-2026 21:39:35 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 21:39:35 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:39:35 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:39:36 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 21:39:36 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 21:39:36 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 21:39:36 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 21:39:36 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 1
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 2
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 3
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 4
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 5
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 6
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 7
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 8
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 9
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 10
+[INFO] 02-04-2026 21:39:38 [main] [LogUtils] - Ex 11
+[INFO] 02-04-2026 21:39:44 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:39:50 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:39:55 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 21:40:15 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:40:27 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:40:27 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:40:27 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:40:27 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (665af9a46be86395f3bbfe1c145c3492)
+[INFO] 02-04-2026 21:40:27 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:40:27 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:40:30 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:40:34 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:40:39 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 21:40:55 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:41:06 [main] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:41:06 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:41:06 [main] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:41:06 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (fb5449c8d9d605ab3a009e0a33e870a3)
+[INFO] 02-04-2026 21:41:07 [main] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:41:07 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:41:09 [main] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:41:13 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[ERROR] 02-04-2026 21:41:14 [main] [LogUtils] - Element not exist invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.167)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87ada8d2c1f7e4ef483760e39e57dc3f, findElement {value=//input[@placeholder='Username'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.167, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\super\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33218}, goog:processID: 15704, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:33218/devtoo..., se:cdpVersion: 146.0.7680.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87ada8d2c1f7e4ef483760e39e57dc3f
+[INFO] 02-04-2026 21:41:14 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 21:41:14 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (87ada8d2c1f7e4ef483760e39e57dc3f)
+[INFO] 02-04-2026 21:41:14 [main] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 21:41:14 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (87ada8d2c1f7e4ef483760e39e57dc3f)
+[INFO] 02-04-2026 21:41:14 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 02-04-2026 21:41:14 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 02-04-2026 21:46:22 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 21:46:22 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:46:22 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 21:46:22 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 21:46:22 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 21:46:23 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 21:46:23 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 21:46:23 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 1
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 2
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 3
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 4
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 5
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 6
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 7
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 8
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 9
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 10
+[INFO] 02-04-2026 21:46:25 [TestNG-test-Add User-1] [LogUtils] - Ex 11
+[INFO] 02-04-2026 21:46:36 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:46:36 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:46:36 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:46:43 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:46:43 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:46:47 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:46:56 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 21:46:58 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 21:46:58 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 21:47:22 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:47:28 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:47:29 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 21:47:34 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:47:34 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:47:34 [TestNG-PoolService-1] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:47:34 [TestNG-PoolService-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (03fa2d08979f3c6c41c0ba83e9c23de1)
+[INFO] 02-04-2026 21:47:35 [TestNG-PoolService-1] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:47:35 [TestNG-PoolService-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:47:38 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[ERROR] 02-04-2026 21:47:40 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:47:40 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:47:40 [TestNG-PoolService-3] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:47:40 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (b794ac32125746b3cffee449aa5488f2)
+[INFO] 02-04-2026 21:47:40 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:47:40 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[ERROR] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser not contains https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - Sign in failed. Can not redirect to Dashboard User Management
+[INFO] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - TEST SUCCESS!!! Test case addUser pass
+[INFO] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (2533489a5154996f60e6481c8fac4dc2)
+[INFO] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 21:47:41 [TestNG-PoolService-2] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 02-04-2026 21:47:43 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:47:47 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 21:47:50 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:47:59 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:48:04 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 21:48:06 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 21:48:10 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 21:48:17 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:04:41 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 22:04:41 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 22:04:41 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 22:04:42 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 22:04:42 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 22:04:42 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 22:04:42 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 22:04:42 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 1
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 2
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 3
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 4
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 5
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 6
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 7
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 8
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 9
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 10
+[INFO] 02-04-2026 22:04:43 [TestNG-test-Add User-1] [LogUtils] - Ex 11
+[INFO] 02-04-2026 22:04:52 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:04:52 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:04:52 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:05:00 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:05:00 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:05:00 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:05:07 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:05:10 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:05:12 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:05:17 [TestNG-PoolService-2] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:05:17 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (d4f5a7599e5095266f733b69e0c707a7)
+[INFO] 02-04-2026 22:05:17 [TestNG-PoolService-2] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:05:17 [TestNG-PoolService-2] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 02-04-2026 22:05:20 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:05:20 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (89ef793c98fcbc2868030f15c84166c6)
+[INFO] 02-04-2026 22:05:21 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:05:21 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 02-04-2026 22:05:24 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:05:26 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:05:31 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:05:32 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[ERROR] 02-04-2026 22:05:33 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 22:05:38 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:05:43 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 22:05:43 [TestNG-PoolService-3] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:05:43 [TestNG-PoolService-3] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:05:43 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:05:43 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (9dd0d11f59b9bc123ebd9549d3a161dd)
+[ERROR] 02-04-2026 22:05:44 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='oxd-autocomplete-option'][@role='option'])[1] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:05:45 [TestNG-PoolService-1] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:05:45 [TestNG-PoolService-1] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:05:45 [TestNG-PoolService-1] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:05:45 [TestNG-PoolService-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3e0cd9394c65aab475c6b7ca84cb5119)
+[INFO] 02-04-2026 22:05:46 [TestNG-PoolService-1] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:05:46 [TestNG-PoolService-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 02-04-2026 22:05:46 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:08:04 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 22:08:04 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 22:08:04 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 22:08:04 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 22:08:04 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 22:08:05 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 22:08:05 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 22:08:05 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 22:08:06 [TestNG-test-Add User-1] [LogUtils] - Ex 1
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 2
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 3
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 4
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 5
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 6
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 7
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 8
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 9
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 10
+[INFO] 02-04-2026 22:08:07 [TestNG-test-Add User-1] [LogUtils] - Ex 11
+[INFO] 02-04-2026 22:08:18 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:08:18 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:08:18 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:08:26 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:08:26 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:08:26 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:08:35 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:08:37 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:08:38 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 22:09:00 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:06 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:06 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:12 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:17 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:18 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:22 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:27 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:28 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:32 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:33 [TestNG-PoolService-2] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:09:33 [TestNG-PoolService-2] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:09:33 [TestNG-PoolService-2] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:09:33 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (d482b9327d7fdfb5fecf1d8dc8c84a49)
+[INFO] 02-04-2026 22:09:35 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[ERROR] 02-04-2026 22:09:38 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:38 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:09:39 [TestNG-PoolService-1] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:09:39 [TestNG-PoolService-1] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:09:39 [TestNG-PoolService-1] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:09:39 [TestNG-PoolService-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3a48a4b9b4957ff10f93281430c2956f)
+[INFO] 02-04-2026 22:09:39 [TestNG-PoolService-1] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:09:39 [TestNG-PoolService-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[ERROR] 02-04-2026 22:09:39 [TestNG-PoolService-3] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:09:39 [TestNG-PoolService-3] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:09:39 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:09:39 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (a948469f69b1cd67c37e2357f7dc4fa0)
+[INFO] 02-04-2026 22:09:40 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:09:40 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[INFO] 02-04-2026 22:10:32 [main] [LogUtils] - *******RUN START********
+[INFO] 02-04-2026 22:10:32 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 22:10:32 [main] [LogUtils] - Put all file properties
+[INFO] 02-04-2026 22:10:33 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 02-04-2026 22:10:33 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 02-04-2026 22:10:33 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 02-04-2026 22:10:33 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 02-04-2026 22:10:33 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 02-04-2026 22:10:34 [TestNG-test-Add User-1] [LogUtils] - Ex 1
+[INFO] 02-04-2026 22:10:34 [TestNG-test-Add User-1] [LogUtils] - Ex 2
+[INFO] 02-04-2026 22:10:34 [TestNG-test-Add User-1] [LogUtils] - Ex 3
+[INFO] 02-04-2026 22:10:34 [TestNG-test-Add User-1] [LogUtils] - Ex 4
+[INFO] 02-04-2026 22:10:34 [TestNG-test-Add User-1] [LogUtils] - Ex 5
+[INFO] 02-04-2026 22:10:35 [TestNG-test-Add User-1] [LogUtils] - Ex 6
+[INFO] 02-04-2026 22:10:35 [TestNG-test-Add User-1] [LogUtils] - Ex 7
+[INFO] 02-04-2026 22:10:35 [TestNG-test-Add User-1] [LogUtils] - Ex 8
+[INFO] 02-04-2026 22:10:35 [TestNG-test-Add User-1] [LogUtils] - Ex 9
+[INFO] 02-04-2026 22:10:35 [TestNG-test-Add User-1] [LogUtils] - Ex 10
+[INFO] 02-04-2026 22:10:35 [TestNG-test-Add User-1] [LogUtils] - Ex 11
+[INFO] 02-04-2026 22:10:46 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:10:46 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:10:46 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:10:52 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:10:53 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:10:53 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:11:03 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:11:06 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:11:06 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 22:11:29 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:34 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:34 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:41 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:46 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:46 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:51 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:56 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:11:56 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:12:01 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:12:02 [TestNG-PoolService-3] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:12:02 [TestNG-PoolService-3] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:12:02 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:12:02 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (05a69e45290bcb8ef10d13b8094ea53a)
+[INFO] 02-04-2026 22:12:02 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:12:02 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:12:05 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[ERROR] 02-04-2026 22:12:06 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:12:06 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:12:07 [TestNG-PoolService-2] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:12:07 [TestNG-PoolService-2] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:12:07 [TestNG-PoolService-2] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:12:07 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (0d4e189a5758667f4607fd3b5a094605)
+[ERROR] 02-04-2026 22:12:07 [TestNG-PoolService-1] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:12:07 [TestNG-PoolService-1] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:12:07 [TestNG-PoolService-1] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:12:07 [TestNG-PoolService-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (be67f18e1ddae3796eeacef4bebb3b38)
+[INFO] 02-04-2026 22:12:07 [TestNG-PoolService-2] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:12:08 [TestNG-PoolService-2] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:12:08 [TestNG-PoolService-1] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:12:08 [TestNG-PoolService-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:12:12 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:12:17 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:12:20 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:12:25 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:12:26 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:12:26 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:12:34 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:12:37 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 22:12:51 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:12:53 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:12:58 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:07 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:07 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:11 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:17 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:17 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:21 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:27 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:27 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:13:28 [TestNG-PoolService-3] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:13:28 [TestNG-PoolService-3] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:13:28 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:13:28 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (083dc4972b983cdac97177fd3fec1695)
+[ERROR] 02-04-2026 22:13:28 [TestNG-PoolService-1] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:13:28 [TestNG-PoolService-1] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:13:28 [TestNG-PoolService-1] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:13:28 [TestNG-PoolService-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (b775e960191e4067240eea60e96e32cd)
+[INFO] 02-04-2026 22:13:28 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:13:28 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:13:29 [TestNG-PoolService-1] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:13:29 [TestNG-PoolService-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[ERROR] 02-04-2026 22:13:31 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 22:13:31 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:13:31 [TestNG-PoolService-1] [LogUtils] - Testcase addUser is starting....
+[ERROR] 02-04-2026 22:13:32 [TestNG-PoolService-2] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:13:32 [TestNG-PoolService-2] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:13:32 [TestNG-PoolService-2] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:13:32 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (c610e59a2769dd7448176a88035c869c)
+[INFO] 02-04-2026 22:13:33 [TestNG-PoolService-2] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:13:33 [TestNG-PoolService-2] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:13:37 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:13:38 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:13:38 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[INFO] 02-04-2026 22:13:45 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:13:51 [TestNG-PoolService-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:13:51 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:13:51 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 22:14:15 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:18 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:21 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:26 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:30 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:32 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:37 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:40 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:43 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:47 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:14:48 [TestNG-PoolService-2] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:14:48 [TestNG-PoolService-2] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:14:48 [TestNG-PoolService-2] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:14:48 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6641cb40ec798bb2ca440218a54b9964)
+[INFO] 02-04-2026 22:14:48 [TestNG-PoolService-2] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:14:48 [TestNG-PoolService-2] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[ERROR] 02-04-2026 22:14:50 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 22:14:50 [TestNG-PoolService-2] [LogUtils] - Testcase addUser is starting....
+[ERROR] 02-04-2026 22:14:51 [TestNG-PoolService-3] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:14:51 [TestNG-PoolService-3] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:14:51 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:14:51 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (37059e48dbabe2b5ee27aedc7baa23ab)
+[INFO] 02-04-2026 22:14:51 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:14:51 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[ERROR] 02-04-2026 22:14:53 [TestNG-PoolService-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 02-04-2026 22:14:53 [TestNG-PoolService-3] [LogUtils] - Testcase addUser is starting....
+[ERROR] 02-04-2026 22:14:54 [TestNG-PoolService-1] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:14:54 [TestNG-PoolService-1] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:14:54 [TestNG-PoolService-1] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:14:54 [TestNG-PoolService-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (eb1e022f5161e0c0c0a225eb4cdc7f29)
+[INFO] 02-04-2026 22:14:55 [TestNG-PoolService-1] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:14:55 [TestNG-PoolService-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:14:56 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:14:58 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 02-04-2026 22:15:02 [TestNG-PoolService-2] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 02-04-2026 22:15:03 [TestNG-PoolService-3] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 02-04-2026 22:15:21 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:22 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-autocomplete-dropdown'][@role='listbox'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:34 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:34 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //h6[normalize-space()='Management'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:44 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:45 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:54 [TestNG-PoolService-3] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:55 [TestNG-PoolService-2] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //p[contains(@class, 'oxd-text--toast-title') and text()='Success'] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 02-04-2026 22:15:55 [TestNG-PoolService-3] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:15:55 [TestNG-PoolService-3] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:15:55 [TestNG-PoolService-3] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:15:55 [TestNG-PoolService-3] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3dac91b81f7ac89ef9a3573ec6c24696)
+[INFO] 02-04-2026 22:15:56 [TestNG-PoolService-3] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:15:56 [TestNG-PoolService-3] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[ERROR] 02-04-2026 22:15:56 [TestNG-PoolService-2] [LogUtils] - Element not visible
+[ERROR] 02-04-2026 22:15:56 [TestNG-PoolService-2] [LogUtils] - Element is not visible
+[INFO] 02-04-2026 22:15:56 [TestNG-PoolService-2] [LogUtils] - TEST FAIL!!!! Testcase addUser fail
+[INFO] 02-04-2026 22:15:56 [TestNG-PoolService-2] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (0f3dd92fcaa6cab27fa103d5edd1ed0a)
+[INFO] 02-04-2026 22:15:56 [TestNG-PoolService-2] [LogUtils] - Screenshot taken: addUser
+[INFO] 02-04-2026 22:15:56 [TestNG-PoolService-2] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 02-04-2026 22:15:57 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 02-04-2026 22:15:57 [main] [LogUtils] - =====> End Suite: Regression Tests

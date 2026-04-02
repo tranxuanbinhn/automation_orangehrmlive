@@ -13,15 +13,17 @@ import java.util.Hashtable;
 public class AdduserTest extends BaseTest {
     private SignInTest signInTest;
     private UserAddPageCMS userAddPageCMS;
-    @BeforeClass
-    private void prepareDate(){
-        signInTest.signInWithAdminRole();
-    }
+
 
     @Test(dataProvider = "data_provider_add_user", dataProviderClass = DataProviderAddUser.class)
     public void addUser(Hashtable<String, String> data){
+
+        signInTest = new SignInTest();
+        signInTest.signInWithAdminRole();
         ExcelHelpers excelHelpers = new ExcelHelpers();
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_CMS_DATA, "AddUser");
+        getUserAddPage().addNewUser(data.get("role"), data.get("employeeName"),data.get("status"), data.get("username"),
+                data.get("password"), data.get("conpassword"));
 
 
     }

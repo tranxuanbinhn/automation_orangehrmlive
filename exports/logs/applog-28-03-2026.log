@@ -1,0 +1,182 @@
+[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:07:02 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:07:03 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:07:03 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:07:03 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:07:08 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:07:13 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 28-03-2026 19:07:17 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 28-03-2026 19:07:19 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
+[INFO] 28-03-2026 19:07:20 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
+[INFO] 28-03-2026 19:07:20 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Verify Equals: !=Admin
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (ce733633044e2bf79cd0796979749630)
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 28-03-2026 19:07:21 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 28-03-2026 19:07:22 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 28-03-2026 19:07:38 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:07:38 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:07:38 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:07:39 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:07:43 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:07:47 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 28-03-2026 19:07:51 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 28-03-2026 19:07:53 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
+[INFO] 28-03-2026 19:07:54 [main] [LogUtils] - Driver after set texChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
+[INFO] 28-03-2026 19:07:54 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
+[INFO] 28-03-2026 19:07:54 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Verify Equals: !=Admin
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (1a48f3c83b382bcaa3a197a3cbefb00e)
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 28-03-2026 19:07:55 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:09:24 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:09:27 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:09:31 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 28-03-2026 19:09:35 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 28-03-2026 19:09:37 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
+[INFO] 28-03-2026 19:09:38 [main] [LogUtils] - Driver after set tex, usernameChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9) 
+[INFO] 28-03-2026 19:09:38 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Verify Equals: !=Admin
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (6c1b232d8ed1359b43fd10f5faa216d9)
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 28-03-2026 19:09:39 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - TEST FAIL!!!! Testcase searchUser fail
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (null)
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 28-03-2026 19:09:40 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:15:14 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:15:15 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:15:15 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:15:15 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:15:59 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:29:05 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:29:06 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:29:06 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:29:06 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:37:38 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:45:40 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:45:40 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:45:40 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:45:41 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 19:46:40 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 19:46:49 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 28-03-2026 19:54:05 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 19:54:06 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 20:02:36 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 20:03:01 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 20:04:43 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 20:04:46 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 20:04:51 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 28-03-2026 20:04:55 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 28-03-2026 20:04:57 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
+[INFO] 28-03-2026 20:04:58 [main] [LogUtils] - Driver after set tex, usernameChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47) Admin
+[INFO] 28-03-2026 20:04:59 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Verify Equals: Admin=Admin
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (0a0b2ad4c2eb0a197f70970ea7ef0c47)
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 28-03-2026 20:05:00 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 28-03-2026 20:05:01 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 28-03-2026 20:05:01 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - *******RUN START********
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Put all file properties
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 28-03-2026 20:12:24 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 28-03-2026 20:12:29 [main] [LogUtils] - Testcase searchUser is starting....
+[INFO] 28-03-2026 20:12:34 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 28-03-2026 20:12:37 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 28-03-2026 20:12:40 [main] [LogUtils] - Driver after click menu adminChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
+[INFO] 28-03-2026 20:12:40 [main] [LogUtils] - Driver after set tex, usernameChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2) Admin
+[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Driver after click searchChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
+[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Driver after waitforChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
+[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Verify Equals: Admin=Admin
+[INFO] 28-03-2026 20:12:41 [main] [LogUtils] - Driver after verifyChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
+[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - TEST SUCCESS!!! Test case searchUser pass
+[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (61ad792021403133abec280da1328cf2)
+[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - Screenshot taken: searchUser
+[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 28-03-2026 20:12:42 [main] [LogUtils] - =====> End Suite: Regression Tests
