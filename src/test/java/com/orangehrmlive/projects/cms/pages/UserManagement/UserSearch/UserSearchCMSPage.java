@@ -14,18 +14,18 @@ public class UserSearchCMSPage extends CommonPageCRM {
     private By tableUser = By.xpath("//div[@class='oxd-table-card'][1]");
     public UserManagementPageCMS searchByUserName(String username){
         clickMenuAdmin();
-        LogUtils.info("Driver after click menu admin"+ DriverManager.getDriver());
+
         setText(inputUsername,username);
-        LogUtils.info("Driver after set tex, username"+ DriverManager.getDriver() +" "+ username);
+
 
         clickElement(buttonSearch);
-        LogUtils.info("Driver after click search"+ DriverManager.getDriver());
+
 
         waitForElementPresent(tableUser);
-        LogUtils.info("Driver after waitfor"+ DriverManager.getDriver());
+
 
         verifyEquals(username, getText(cellUsername),"No Result Search");
-        LogUtils.info("Driver after verify"+ DriverManager.getDriver());
+
 
         return new UserManagementPageCMS();
     }

@@ -4,6 +4,7 @@ import static com.orangehrmlive.keywords.WebUI.*;
 import com.orangehrmlive.keywords.WebUI;
 import com.orangehrmlive.projects.cms.pages.CommonPageCRM;
 import com.orangehrmlive.projects.cms.pages.UserManagement.UserManagementPageCMS;
+import com.orangehrmlive.projects.cms.pages.UserManagement.UserSearch.UserSearchCMSPage;
 import org.openqa.selenium.By;
 
 public class UserAddPageCMS extends CommonPageCRM {
@@ -21,7 +22,7 @@ public class UserAddPageCMS extends CommonPageCRM {
     private By selectRoleESS = By.xpath("//div[contains(@class,'oxd-select-option')][.//text()='ESS']");
     private By dropdownEmployeeName = By.xpath("//div[@class='oxd-autocomplete-dropdown'][@role='listbox']");
     private By  optionEmployeeName = By.xpath("(//div[@class='oxd-autocomplete-option'][@role='option'])[1]");
-    private By toastSuccess = By.xpath("//p[contains(@class, 'oxd-text--toast-title') and text()='Success']");
+    private UserSearchCMSPage userSearchCMSPage;
     public UserManagementPageCMS addNewUser(String role, String employeeName, String status, String username, String password, String conpassword){
         clickMenuAdmin();
         userManagementPageCMS = new UserManagementPageCMS();
@@ -49,8 +50,8 @@ public class UserAddPageCMS extends CommonPageCRM {
         setText(inputConfirmPassword,conpassword);
         clickElement(buttonSubmit);
         waitForElementPresent(UserManagementPageCMS.getUserManagement());
-        waitForElementPresent(toastSuccess);
-        WebUI.verifyEquals(WebUI.getText(toastSuccess),"Success", "Add Fail");
+        userSearchCMSPage = new UserSearchCMSPage();
+        userSearchCMSPage.searchByUserName(username);
         verifyContains(getCurrentUrl(),UserManagementPageCMS.getUrl(),"Add failed. Can not redirect to Dashboard User Management");
         return new UserManagementPageCMS();
     }

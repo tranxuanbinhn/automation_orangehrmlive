@@ -3,6 +3,8 @@ package com.orangehrmlive.keywords;
 import com.mysql.cj.log.Log;
 import com.orangehrmlive.constants.FrameworkConstants;
 import com.orangehrmlive.driver.DriverManager;
+import com.orangehrmlive.exceptions.FrameworkException;
+import com.orangehrmlive.exceptions.TargetNotValidException;
 import com.orangehrmlive.utils.LogUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -68,7 +70,8 @@ public static void waitForPageLoad(){
                 LogUtils.info("Verify Equals: "+actucal+"="+expect);
             }
             else {
-                LogUtils.info("Verify Equals: "+actucal+"!="+expect);
+                LogUtils.error("Verify Equals: "+actucal+"!="+expect);
+                throw new FrameworkException("Not Equal");
             }
             return result;
 
