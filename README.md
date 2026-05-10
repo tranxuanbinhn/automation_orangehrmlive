@@ -1,4 +1,6 @@
 OrangeHRM Automation Testing (Selenium & Java)
+
+
 This project is an automated testing framework built to verify the core functionalities of the OrangeHRM open-source platform. It demonstrates the application of modern automation practices, focusing on maintainability and scalability.
 
 Features
@@ -12,7 +14,7 @@ Data Handling: Flexible locators using XPath and CSS Selectors.
 
 Reporting: Integrated with Extent Reports / Allure Report (Tùy bạn chọn loại nào) for detailed test execution insights.
 
-🛠 Tech Stack
+Tech Stack
 Language: Java (JDK 11+)
 
 Automation Tool: Selenium WebDriver
