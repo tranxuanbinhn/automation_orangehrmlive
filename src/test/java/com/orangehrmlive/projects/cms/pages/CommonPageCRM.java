@@ -2,6 +2,7 @@ package com.orangehrmlive.projects.cms.pages;
 
 import com.orangehrmlive.projects.cms.pages.SignIn.SignInPageCMS;
 import com.orangehrmlive.projects.cms.pages.UserManagement.UserAdd.UserAddPageCMS;
+import com.orangehrmlive.projects.cms.pages.UserManagement.UserDelete.UserDeletePageCMS;
 import com.orangehrmlive.projects.cms.pages.UserManagement.UserEdit.UserEditPageCMS;
 import com.orangehrmlive.projects.cms.pages.UserManagement.UserSearch.UserSearchCMSPage;
 import org.apache.xmlbeans.impl.xb.xsdschema.ImportDocument;
@@ -12,7 +13,7 @@ public class CommonPageCRM {
     private UserSearchCMSPage userSearchCMSPage;
     private UserAddPageCMS userAddPageCMS;
     private UserEditPageCMS userEditPageCMS;
-
+    private UserDeletePageCMS userDeletePageCMS;
     private DashBoardPageCRM dashBoardPage;
     private By menuAdmin = By.xpath("//a[@href='/web/index.php/admin/viewAdminModule']");
     public DashBoardPageCRM getDashBoardPage(){
@@ -44,6 +45,13 @@ public class CommonPageCRM {
         }
 
         return userEditPageCMS;
+    }
+    public UserDeletePageCMS getUserDeletePage(){
+        if(userDeletePageCMS == null){
+            userDeletePageCMS = new UserDeletePageCMS();
+        }
+
+        return userDeletePageCMS;
     }
 
 }

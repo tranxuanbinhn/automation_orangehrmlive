@@ -1,99 +1,88 @@
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 07-04-2026 17:17:29 [TestNG-test-Edit User-1] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
-[INFO] 07-04-2026 17:17:29 [TestNG-test-Edit User-1] [LogUtils] - Driver for capture is null
-[INFO] 07-04-2026 17:18:28 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:18:28 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:18:28 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - =====> Starting Suite: Default Suite
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - Driver for capture is null
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - =====> End Suite: Default Suite
-[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:24:25 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:24:25 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:24:25 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 07-04-2026 17:24:25 [TestNG-test-Edit User-1] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
-[INFO] 07-04-2026 17:24:25 [TestNG-test-Edit User-1] [LogUtils] - Driver for capture is null
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
-[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - Driver for capture is null
-[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 07-04-2026 17:27:44 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:27:44 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:27:44 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[ERROR] 07-04-2026 17:27:47 [main] [LogUtils] - Lỗi khi đọc file Excel: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because "this.sheet" is null
-[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
-[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - Driver for capture is null
-[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 07-04-2026 17:35:18 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:35:18 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:35:18 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 07-04-2026 17:35:20 [main] [LogUtils] - Ex 1
-[INFO] 07-04-2026 17:35:29 [main] [LogUtils] - Testcase editUser is starting....
-[INFO] 07-04-2026 17:35:38 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 07-04-2026 17:35:46 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 07-04-2026 17:35:53 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
-[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
-[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Verify Equals: Admin!=ESS
-[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - TEST SUCCESS!!! Test case editUser pass
-[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3373b65fec373b6ac8060577ce4d9de3)
-[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Screenshot taken: editUser
-[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 07-04-2026 17:36:05 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 07-04-2026 17:36:05 [main] [LogUtils] - =====> End Suite: Regression Tests
-[INFO] 07-04-2026 17:47:09 [main] [LogUtils] - *******RUN START********
-[INFO] 07-04-2026 17:47:09 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:47:09 [main] [LogUtils] - Put all file properties
-[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
-[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
-[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - Extent Reports is installed.
-[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
-[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - =====> Starting Suite: Regression Tests
-[INFO] 07-04-2026 17:47:12 [main] [LogUtils] - Ex 1
-[INFO] 07-04-2026 17:47:16 [main] [LogUtils] - Testcase editUser is starting....
-[INFO] 07-04-2026 17:47:23 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
-[INFO] 07-04-2026 17:47:28 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
-[INFO] 07-04-2026 17:47:35 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
-[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
-[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Verify Equals: Admin=Admin
-[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - TEST SUCCESS!!! Test case editUser pass
-[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (d9c30e6013c1b434721821830ec07955)
-[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Screenshot taken: editUser
-[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
-[INFO] 07-04-2026 17:47:43 [main] [LogUtils] - ********** RUN FINISHED **********
-[INFO] 07-04-2026 17:47:43 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 09-04-2026 13:10:46 [main] [LogUtils] - *******RUN START********
+[INFO] 09-04-2026 13:10:46 [main] [LogUtils] - Put all file properties
+[INFO] 09-04-2026 13:10:46 [main] [LogUtils] - Put all file properties
+[INFO] 09-04-2026 13:10:47 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 09-04-2026 13:10:47 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 09-04-2026 13:10:47 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 09-04-2026 13:10:47 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 09-04-2026 13:10:47 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 09-04-2026 13:10:48 [TestNG-test-Delete User-1] [LogUtils] - Ex 1
+[INFO] 09-04-2026 13:10:48 [TestNG-test-Delete User-1] [LogUtils] - Ex 2
+[INFO] 09-04-2026 13:10:48 [TestNG-test-Delete User-1] [LogUtils] - Ex 3
+[INFO] 09-04-2026 13:10:53 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 09-04-2026 13:10:58 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 09-04-2026 13:11:02 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 09-04-2026 13:11:15 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@role='row']//div[@role='cell'][2] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 09-04-2026 13:11:16 [TestNG-test-Delete User-1] [LogUtils] - Element not visible
+[ERROR] 09-04-2026 13:11:16 [TestNG-test-Delete User-1] [LogUtils] - Element is not visible
+[INFO] 09-04-2026 13:11:16 [TestNG-test-Delete User-1] [LogUtils] - TEST FAIL!!!! Testcase deleteUser fail
+[INFO] 09-04-2026 13:11:16 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (8f45c52503788d28098d9b53fe373146)
+[INFO] 09-04-2026 13:11:16 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 09-04-2026 13:11:16 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 09-04-2026 13:11:20 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 09-04-2026 13:11:23 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 09-04-2026 13:11:26 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 09-04-2026 13:11:39 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 09-04-2026 13:11:49 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@role='row']//div[@role='cell'][2] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 09-04-2026 13:11:50 [TestNG-test-Delete User-1] [LogUtils] - Element not visible
+[ERROR] 09-04-2026 13:11:50 [TestNG-test-Delete User-1] [LogUtils] - Element is not visible
+[INFO] 09-04-2026 13:11:50 [TestNG-test-Delete User-1] [LogUtils] - TEST FAIL!!!! Testcase deleteUser fail
+[INFO] 09-04-2026 13:11:50 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (4933f11a0167f016026c1bd93ffbfb9c)
+[INFO] 09-04-2026 13:11:50 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 09-04-2026 13:11:50 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 09-04-2026 13:11:53 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 09-04-2026 13:11:56 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 09-04-2026 13:11:59 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[ERROR] 09-04-2026 13:12:13 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 09-04-2026 13:12:23 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@role='row']//div[@role='cell'][2] (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 09-04-2026 13:12:24 [TestNG-test-Delete User-1] [LogUtils] - Element not visible
+[ERROR] 09-04-2026 13:12:24 [TestNG-test-Delete User-1] [LogUtils] - Element is not visible
+[INFO] 09-04-2026 13:12:24 [TestNG-test-Delete User-1] [LogUtils] - TEST FAIL!!!! Testcase deleteUser fail
+[INFO] 09-04-2026 13:12:24 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (9a440ef228100653743ae5457363d149)
+[INFO] 09-04-2026 13:12:24 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 09-04-2026 13:12:24 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 09-04-2026 13:12:24 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 09-04-2026 13:12:24 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - *******RUN START********
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - Put all file properties
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - Put all file properties
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 09-04-2026 14:15:07 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 09-04-2026 14:15:09 [TestNG-test-Delete User-1] [LogUtils] - Ex 1
+[INFO] 09-04-2026 14:15:09 [TestNG-test-Delete User-1] [LogUtils] - Ex 2
+[INFO] 09-04-2026 14:15:09 [TestNG-test-Delete User-1] [LogUtils] - Ex 3
+[INFO] 09-04-2026 14:15:15 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 09-04-2026 14:15:18 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 09-04-2026 14:15:22 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 09-04-2026 14:15:26 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: autouser0-1775717631442=autouser0-1775717631442
+[ERROR] 09-04-2026 14:15:39 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 09-04-2026 14:15:39 [TestNG-test-Delete User-1] [LogUtils] - No Records Found contains No Records Found
+[INFO] 09-04-2026 14:15:39 [TestNG-test-Delete User-1] [LogUtils] - TEST SUCCESS!!! Test case deleteUser pass
+[INFO] 09-04-2026 14:15:39 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (e9e573b8dc555dfe13e0d404617bf76f)
+[INFO] 09-04-2026 14:15:40 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 09-04-2026 14:15:40 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 09-04-2026 14:15:44 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 09-04-2026 14:15:47 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 09-04-2026 14:15:51 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 09-04-2026 14:15:54 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: bhavanas=bhavanas
+[ERROR] 09-04-2026 14:16:07 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 09-04-2026 14:16:07 [TestNG-test-Delete User-1] [LogUtils] - No Records Found contains No Records Found
+[INFO] 09-04-2026 14:16:07 [TestNG-test-Delete User-1] [LogUtils] - TEST SUCCESS!!! Test case deleteUser pass
+[INFO] 09-04-2026 14:16:07 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3fa9649262be04ef7480b42084b485b3)
+[INFO] 09-04-2026 14:16:07 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 09-04-2026 14:16:07 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 09-04-2026 14:16:10 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 09-04-2026 14:16:14 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 09-04-2026 14:16:17 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 09-04-2026 14:16:20 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: Dixit0.06548401522989167=Dixit0.06548401522989167
+[ERROR] 09-04-2026 14:16:33 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 09-04-2026 14:16:33 [TestNG-test-Delete User-1] [LogUtils] - No Records Found contains No Records Found
+[INFO] 09-04-2026 14:16:33 [TestNG-test-Delete User-1] [LogUtils] - TEST SUCCESS!!! Test case deleteUser pass
+[INFO] 09-04-2026 14:16:33 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (0f3d61ace38c6954b967b6cca3979979)
+[INFO] 09-04-2026 14:16:33 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 09-04-2026 14:16:33 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 09-04-2026 14:16:34 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 09-04-2026 14:16:34 [main] [LogUtils] - =====> End Suite: Regression Tests

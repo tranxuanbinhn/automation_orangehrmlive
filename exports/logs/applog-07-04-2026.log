@@ -1,0 +1,99 @@
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:17:29 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-04-2026 17:17:29 [TestNG-test-Edit User-1] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
+[INFO] 07-04-2026 17:17:29 [TestNG-test-Edit User-1] [LogUtils] - Driver for capture is null
+[INFO] 07-04-2026 17:18:28 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:18:28 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:18:28 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - =====> Starting Suite: Default Suite
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - Driver for capture is null
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-04-2026 17:18:29 [main] [LogUtils] - =====> End Suite: Default Suite
+[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:24:24 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:24:25 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:24:25 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:24:25 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-04-2026 17:24:25 [TestNG-test-Edit User-1] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
+[INFO] 07-04-2026 17:24:25 [TestNG-test-Edit User-1] [LogUtils] - Driver for capture is null
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:26:46 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
+[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - Driver for capture is null
+[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-04-2026 17:26:47 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-04-2026 17:27:44 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:27:44 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:27:44 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:27:45 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[ERROR] 07-04-2026 17:27:47 [main] [LogUtils] - Lỗi khi đọc file Excel: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because "this.sheet" is null
+[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
+[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - Driver for capture is null
+[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-04-2026 17:27:47 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-04-2026 17:35:18 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:35:18 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:35:18 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:35:19 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-04-2026 17:35:20 [main] [LogUtils] - Ex 1
+[INFO] 07-04-2026 17:35:29 [main] [LogUtils] - Testcase editUser is starting....
+[INFO] 07-04-2026 17:35:38 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-04-2026 17:35:46 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 07-04-2026 17:35:53 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
+[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
+[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Verify Equals: Admin!=ESS
+[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - TEST SUCCESS!!! Test case editUser pass
+[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (3373b65fec373b6ac8060577ce4d9de3)
+[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Screenshot taken: editUser
+[INFO] 07-04-2026 17:36:04 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 07-04-2026 17:36:05 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-04-2026 17:36:05 [main] [LogUtils] - =====> End Suite: Regression Tests
+[INFO] 07-04-2026 17:47:09 [main] [LogUtils] - *******RUN START********
+[INFO] 07-04-2026 17:47:09 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:47:09 [main] [LogUtils] - Put all file properties
+[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 07-04-2026 17:47:10 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 07-04-2026 17:47:12 [main] [LogUtils] - Ex 1
+[INFO] 07-04-2026 17:47:16 [main] [LogUtils] - Testcase editUser is starting....
+[INFO] 07-04-2026 17:47:23 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 07-04-2026 17:47:28 [main] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 07-04-2026 17:47:35 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
+[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Verify Equals: usertest1000090000=usertest1000090000
+[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Verify Equals: Admin=Admin
+[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - TEST SUCCESS!!! Test case editUser pass
+[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (d9c30e6013c1b434721821830ec07955)
+[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Screenshot taken: editUser
+[INFO] 07-04-2026 17:47:42 [main] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 07-04-2026 17:47:43 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 07-04-2026 17:47:43 [main] [LogUtils] - =====> End Suite: Regression Tests

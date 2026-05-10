@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import static com.orangehrmlive.keywords.WebUI.*;
 
 public class UserDeletePageCMS extends CommonPageCRM {
-    private By buttonDelete = By.xpath("//div[@class='orangehrm-paper-container']//button[1]");
+    private By buttonDelete = By.xpath("//div[@class='orangehrm-paper-container']//button[.//i[contains(@class,'bi-trash')]]");
     private By inputUsername = By.xpath("//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']");
     private By buttonSearch = By.xpath("//button[normalize-space()='Search']");
     private By cellUsername = By.xpath("//div[@role='row']//div[@role='cell'][2]");

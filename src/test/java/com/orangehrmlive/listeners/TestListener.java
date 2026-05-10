@@ -114,7 +114,12 @@ public AuthorType[] getAuthorType(ITestResult iTestResult){
     public void onTestStart(ITestResult result) {
         LogUtils.info("Testcase "+getTestName(result)+" is starting....");
         count_TotalTCs+=1;
-        ExtentReportManager.createTest(result.getTestName());
+        // Lấy tên từ thẻ <test> trong file XML
+        String xmlTestName = result.getTestContext().getName();
+
+        // Hoặc lấy tên của Class chứa bài test
+        String className = result.getTestClass().getRealClass().getSimpleName();
+        ExtentReportManager.createTest(xmlTestName + " - " + className);
         ExtentReportManager.addAuthors(getAuthorType(result));
         ExtentReportManager.addCategories(getCategoryType(result));
         ExtentReportManager.addDevices();

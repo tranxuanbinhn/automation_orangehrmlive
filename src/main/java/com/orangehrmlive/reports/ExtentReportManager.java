@@ -70,9 +70,15 @@ public class ExtentReportManager {
 
     }
     public static void addScreenShot(Status status ,String message) {
-        String base64Image = "data:image/png;base64," + ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BASE64);
-        ExtentTestManager.getExtentTest().log(status, MediaEntityBuilder.createScreenCaptureFromBase64String(base64Image).build());
+//        String base64Image = "data:image/png;base64," + ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BASE64);
+//        ExtentTestManager.getExtentTest().log(status, MediaEntityBuilder.createScreenCaptureFromBase64String(base64Image).build());
+        // 1. Lấy chuỗi Base64 thuần túy (không cộng thêm tiền tố data:image...)
+        String base64Image = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BASE64);
 
+        // 2. Đính kèm vào log.
+        // Lưu ý: Dùng log(status, message, media) để hiện cả chữ và ảnh cùng một dòng
+        ExtentTestManager.getExtentTest().log(status, message,
+                MediaEntityBuilder.createScreenCaptureFromBase64String(base64Image).build());
     }
 
     synchronized public static void addAuthors(AuthorType[] authors) {

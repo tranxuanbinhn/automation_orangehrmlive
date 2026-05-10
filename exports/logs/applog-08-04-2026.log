@@ -1,0 +1,85 @@
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - *******RUN START********
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 08-04-2026 19:59:17 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 08-04-2026 19:59:17 [TestNG-test-Delete User-1] [LogUtils] - TEST FAIL!!!! Testcase editUser fail
+[INFO] 08-04-2026 19:59:17 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is null
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - *******RUN START********
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 08-04-2026 20:01:38 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 08-04-2026 20:01:39 [TestNG-test-Delete User-1] [LogUtils] - Ex 1
+[INFO] 08-04-2026 20:01:39 [TestNG-test-Delete User-1] [LogUtils] - Ex 2
+[INFO] 08-04-2026 20:01:39 [TestNG-test-Delete User-1] [LogUtils] - Ex 3
+[INFO] 08-04-2026 20:01:44 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 08-04-2026 20:01:48 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 08-04-2026 20:01:52 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 08-04-2026 20:01:56 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: Aravind6153=Aravind6153
+[ERROR] 08-04-2026 20:02:07 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-dialog-container-default--inner'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 08-04-2026 20:04:43 [main] [LogUtils] - *******RUN START********
+[INFO] 08-04-2026 20:04:43 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 20:04:43 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 20:04:44 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 08-04-2026 20:04:44 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 08-04-2026 20:04:44 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 08-04-2026 20:04:44 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 08-04-2026 20:04:44 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 08-04-2026 20:04:45 [TestNG-test-Delete User-1] [LogUtils] - Ex 1
+[INFO] 08-04-2026 20:04:45 [TestNG-test-Delete User-1] [LogUtils] - Ex 2
+[INFO] 08-04-2026 20:04:45 [TestNG-test-Delete User-1] [LogUtils] - Ex 3
+[INFO] 08-04-2026 20:04:48 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 08-04-2026 20:04:51 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 08-04-2026 20:04:56 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 08-04-2026 20:05:01 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: Aravind6153=Aravind6153
+[ERROR] 08-04-2026 20:05:12 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-dialog-container-default--inner'] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 08-04-2026 20:13:26 [main] [LogUtils] - *******RUN START********
+[INFO] 08-04-2026 20:13:26 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 20:13:26 [main] [LogUtils] - Put all file properties
+[INFO] 08-04-2026 20:13:27 [main] [LogUtils] - OVERRIDE EXTENT REPORTS = yes
+[INFO] 08-04-2026 20:13:27 [main] [LogUtils] - Link Extent Report: D:\Learn\Automation\Automationorangehrmlive\exports/ExtentReports\ExtentReports.html
+[INFO] 08-04-2026 20:13:27 [main] [LogUtils] - Extent Reports is installed.
+[INFO] 08-04-2026 20:13:27 [main] [LogUtils] - ========= INSTALLED CONFIGURATION DATA =========
+[INFO] 08-04-2026 20:13:27 [main] [LogUtils] - =====> Starting Suite: Regression Tests
+[INFO] 08-04-2026 20:13:28 [TestNG-test-Delete User-1] [LogUtils] - Ex 1
+[INFO] 08-04-2026 20:13:28 [TestNG-test-Delete User-1] [LogUtils] - Ex 2
+[INFO] 08-04-2026 20:13:28 [TestNG-test-Delete User-1] [LogUtils] - Ex 3
+[INFO] 08-04-2026 20:13:33 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 08-04-2026 20:13:37 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 08-04-2026 20:13:40 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 08-04-2026 20:13:44 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: Aravind6153=Aravind6153
+[ERROR] 08-04-2026 20:13:58 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 08-04-2026 20:13:58 [TestNG-test-Delete User-1] [LogUtils] - No Records Found contains No Records Found
+[INFO] 08-04-2026 20:13:58 [TestNG-test-Delete User-1] [LogUtils] - TEST SUCCESS!!! Test case deleteUser pass
+[INFO] 08-04-2026 20:13:58 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (546aa5696c7261d2de8a536ed0eeb126)
+[INFO] 08-04-2026 20:13:58 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 08-04-2026 20:13:58 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 08-04-2026 20:14:02 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 08-04-2026 20:14:06 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 08-04-2026 20:14:11 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 08-04-2026 20:14:15 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: Aravind854=Aravind854
+[ERROR] 08-04-2026 20:14:28 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 08-04-2026 20:14:28 [TestNG-test-Delete User-1] [LogUtils] - No Records Found contains No Records Found
+[INFO] 08-04-2026 20:14:28 [TestNG-test-Delete User-1] [LogUtils] - TEST SUCCESS!!! Test case deleteUser pass
+[INFO] 08-04-2026 20:14:28 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (f841e66a30f94fb23c67c9c006fa5b9e)
+[INFO] 08-04-2026 20:14:28 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 08-04-2026 20:14:28 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 08-04-2026 20:14:30 [TestNG-test-Delete User-1] [LogUtils] - Testcase deleteUser is starting....
+[INFO] 08-04-2026 20:14:34 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login contains /auth/login
+[INFO] 08-04-2026 20:14:38 [TestNG-test-Delete User-1] [LogUtils] - https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index contains /dashboard/index
+[INFO] 08-04-2026 20:14:41 [TestNG-test-Delete User-1] [LogUtils] - Verify Equals: Aravind9163=Aravind9163
+[ERROR] 08-04-2026 20:14:54 [TestNG-test-Delete User-1] [LogUtils] - Element not exist Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='oxd-table-card'][1] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 08-04-2026 20:14:55 [TestNG-test-Delete User-1] [LogUtils] - No Records Found contains No Records Found
+[INFO] 08-04-2026 20:14:55 [TestNG-test-Delete User-1] [LogUtils] - TEST SUCCESS!!! Test case deleteUser pass
+[INFO] 08-04-2026 20:14:55 [TestNG-test-Delete User-1] [LogUtils] - Driver for capture is ChromeDriver: chrome on windows (219952422b3238f819c14d0ba46c0e4e)
+[INFO] 08-04-2026 20:14:55 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken: deleteUser
+[INFO] 08-04-2026 20:14:55 [TestNG-test-Delete User-1] [LogUtils] - Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[INFO] 08-04-2026 20:14:56 [main] [LogUtils] - ********** RUN FINISHED **********
+[INFO] 08-04-2026 20:14:56 [main] [LogUtils] - =====> End Suite: Regression Tests
