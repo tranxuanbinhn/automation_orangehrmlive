@@ -25,18 +25,7 @@ Reporting: Allure / Extent Reports
 
 Version Control: Git
 
-### Project Structure
-Plaintext
-src
-├── main
-│   └── java
-│       └── pages           # Page Classes (Page Object Model)
-├── test
-│   └── java
-│       └── tests           # Test Classes
-├── resources
-│   └── testng.xml          # Test Suite Configuration
-└── pom.xml                 # Project Dependencies
+
 ### Prerequisites
 Java Development Kit (JDK) 11 or higher.
 
