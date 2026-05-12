@@ -12,6 +12,7 @@ Data Handling: Flexible locators using XPath and CSS Selectors.
 
 Reporting: Integrated with Extent Reports / Allure Report (Tùy bạn chọn loại nào) for detailed test execution insights.
 ### Structure
+```
 orange-hrm-automation
 ├── src
 │   ├── main
@@ -32,6 +33,7 @@ orange-hrm-automation
 ├── target                      <-- Nơi lưu kết quả biên dịch và báo cáo (Allure/Extent)
 ├── pom.xml                     <-- Quản lý dependencies (Selenium, TestNG)
 └── README.md                   <-- Tài liệu hướng dẫn dự án
+```
 ### Tech Stack
 Language: Java (JDK 11+)
 
