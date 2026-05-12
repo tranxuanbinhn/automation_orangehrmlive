@@ -18,17 +18,29 @@ orange-hrm-automation
 │   ├── main
 │   │   └── java
 │   │       └── com.orangehrm
-│   │           ├── pages       <-- Chứa các class Page Object (LoginPage, PIMPage)
-│   │           ├── drivers     <-- Quản lý khởi tạo WebDriver
-│   │           └── utils       <-- Các tiện ích (Đọc Excel, Config, Helpers)
+│   │           ├── annotations       
+│   │           ├── constants <-- chua cac constants co su dung lai -->     
+│   │           └── driver <-- chua cac class xu ly viec dung driver -->
+|   |           └── enum
+|   |           └── exceptions <-- xu ly thong bao loi -->
+|   |           └── helpers
+|   |           └── keywords
+|   |           └── reports <-- chua class xu ly report -->
+|   |           └── utils 
 │   └── test
 │       ├── java
 │       │   └── com.orangehrm
-│       │       ├── tests       <-- Chứa các kịch bản test (LoginTest, AddUserTest)
-│       │       └── base        <-- Chứa BaseTest (Setup/Teardown)
+│       │       ├── common       <-- Chuc cac method dung chung
+│       │       └── dataprovider        <-- Xu ly lay data tu excel
+|       |       └── listeners <-- xu ly listener
+|       |       └── projects.cms
+|       |          └── models
+|       |          └── pages <-- cac ham xu ly locator
+|       |          └── testcase <-- xu ly testcase
 │       └── resources
 │           ├── suites          <-- Nơi chứa các file XML như hình bạn đã gửi
 │           ├── testdata        <-- Chứa file Excel, JSON dữ liệu đầu vào
+|           └── allure          <-- chua file xu li bao cao allure
 │           └── config.properties <-- Chứa URL, Browser, Timeout
 ├── target                      <-- Nơi lưu kết quả biên dịch và báo cáo (Allure/Extent)
 ├── pom.xml                     <-- Quản lý dependencies (Selenium, TestNG)
