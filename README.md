@@ -11,7 +11,27 @@ Synchronization: Handled dynamic elements using Explicit and Implicit Waits.
 Data Handling: Flexible locators using XPath and CSS Selectors.
 
 Reporting: Integrated with Extent Reports / Allure Report (Tùy bạn chọn loại nào) for detailed test execution insights.
-
+### Structure
+orange-hrm-automation
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com.orangehrm
+│   │           ├── pages       <-- Chứa các class Page Object (LoginPage, PIMPage)
+│   │           ├── drivers     <-- Quản lý khởi tạo WebDriver
+│   │           └── utils       <-- Các tiện ích (Đọc Excel, Config, Helpers)
+│   └── test
+│       ├── java
+│       │   └── com.orangehrm
+│       │       ├── tests       <-- Chứa các kịch bản test (LoginTest, AddUserTest)
+│       │       └── base        <-- Chứa BaseTest (Setup/Teardown)
+│       └── resources
+│           ├── suites          <-- Nơi chứa các file XML như hình bạn đã gửi
+│           ├── testdata        <-- Chứa file Excel, JSON dữ liệu đầu vào
+│           └── config.properties <-- Chứa URL, Browser, Timeout
+├── target                      <-- Nơi lưu kết quả biên dịch và báo cáo (Allure/Extent)
+├── pom.xml                     <-- Quản lý dependencies (Selenium, TestNG)
+└── README.md                   <-- Tài liệu hướng dẫn dự án
 ### Tech Stack
 Language: Java (JDK 11+)
 
